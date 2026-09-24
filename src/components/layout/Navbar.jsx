@@ -40,6 +40,7 @@ export default function Navbar() {
     { href: '/internship', label: 'Magang' },
     { href: '/programs', label: 'Program' },
     { href: '/newsroom', label: 'Event' },
+    { href: '/alumni', label: 'Alumni' },
     { href: '/partnership', label: 'Kemitraan' },
     { href: '/jejaring', label: 'Jejaring' },
   ];

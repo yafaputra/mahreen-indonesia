@@ -146,8 +146,10 @@ export default function HomePage() {
       <section className="relative pt-8 sm:pt-14 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8 border-b border-zinc-100 overflow-hidden">
         <Spotlight
           className="-top-40 left-0 md:left-60 md:-top-20"
-          fill="#F4F4F5"
-          fillSecondary="#E4E4E7"
+          fill="#FFFFFF"
+          fillSecondary="#FAFAFA"
+          fillOpacity={0.07}
+          fillSecondaryOpacity={0.04}
         />
 
         <BackgroundGrid pattern="dots" dotColor="rgba(0, 0, 0, 0.04)" className="py-2">
@@ -241,8 +243,8 @@ export default function HomePage() {
       {/* 4. MAHREEN LEARNING SHOWCASE (BOOTCAMP, WORKSHOP, SERTIFIKASI) */}
       <section id="mahreen-learning" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
         <div className="p-8 sm:p-10 rounded-2xl bg-white border border-zinc-200 space-y-8 shadow-xs">
-          <FadeInView className="text-center max-w-2xl mx-auto space-y-2">
-            <span className="text-xs font-mono font-bold uppercase tracking-wider text-zinc-900 bg-zinc-100 px-3 py-1 rounded-md border border-zinc-300">
+          <FadeInView className="text-center max-w-2xl mx-auto space-y-4">
+            <span className="text-xs font-mono font-bold uppercase tracking-wider text-terracotta-800 bg-terracotta-50 px-3 py-1 rounded-md border border-terracotta-200">
               Akselerasi Karier Digital
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-zinc-900 font-display">
@@ -311,7 +313,7 @@ export default function HomePage() {
       {/* MENGAPA MAHREEN? (NILAI UTAMA - 7 PILLARS) */}
       <section id="mengapa-mahreen" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-8">
-          <FadeInView className="text-center max-w-2xl mx-auto space-y-2">
+          <FadeInView className="text-center max-w-2xl mx-auto space-y-4">
             <span className="text-xs font-bold uppercase tracking-wider text-terracotta-700 bg-terracotta-50 px-3 py-1 rounded-full border border-terracotta-200">
               Nilai Utama
             </span>
@@ -449,7 +451,7 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-8">
           <FadeInView className="flex flex-col md:flex-row md:items-end justify-between gap-4">
-            <div className="space-y-1">
+            <div className="space-y-3">
               <span className="text-xs font-bold uppercase tracking-wider text-terracotta-700 bg-terracotta-50 px-3 py-1 rounded-full border border-terracotta-200">
                 Mahreen Newsroom &amp; Events
               </span>
@@ -541,7 +543,7 @@ export default function HomePage() {
       {/* 6. LIMA PILAR BISNIS & EKOSISTEM RESMI MAHREEN INDONESIA */}
       <section id="pilar-bisnis" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-8">
-          <FadeInView className="text-center max-w-2xl mx-auto space-y-2">
+          <FadeInView className="text-center max-w-2xl mx-auto space-y-4">
             <span className="text-xs font-bold uppercase tracking-wider text-terracotta-700 bg-terracotta-50 px-3 py-1 rounded-full border border-terracotta-200">
               Ekosistem Mahreen Indonesia
             </span>
@@ -702,8 +704,10 @@ export default function HomePage() {
         <div className="rounded-3xl bg-white text-zinc-900 p-8 sm:p-12 text-center space-y-6 relative overflow-hidden border border-zinc-200 shadow-sm">
           <Spotlight
             className="-top-20 left-1/2 -translate-x-1/2"
-            fill="#F4F4F5"
-            fillSecondary="#E4E4E7"
+            fill="#FFFFFF"
+            fillSecondary="#FAFAFA"
+            fillOpacity={0.07}
+            fillSecondaryOpacity={0.04}
           />
 
           <div className="max-w-2xl mx-auto space-y-3 relative z-10">

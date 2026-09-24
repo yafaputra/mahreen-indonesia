@@ -11,6 +11,8 @@ export default function Spotlight({
   className = '',
   fill = '#E64A27',
   fillSecondary = '#F59E0B',
+  fillOpacity = 0.21,
+  fillSecondaryOpacity = 0.14,
 }) {
   return (
     <svg
@@ -27,7 +29,7 @@ export default function Spotlight({
           ry="273.501"
           transform="matrix(-0.822377 -0.568943 -0.568943 0.822377 3631.88 2291.09)"
           fill={fill}
-          fillOpacity="0.21"
+          fillOpacity={fillOpacity}
         />
         <ellipse
           cx="1700"
@@ -36,7 +38,7 @@ export default function Spotlight({
           ry="200"
           transform="matrix(-0.822377 -0.568943 -0.568943 0.822377 3200 1900)"
           fill={fillSecondary}
-          fillOpacity="0.14"
+          fillOpacity={fillSecondaryOpacity}
         />
       </g>
       <defs>

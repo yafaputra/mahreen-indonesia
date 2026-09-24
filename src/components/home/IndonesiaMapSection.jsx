@@ -590,7 +590,7 @@ export default function IndonesiaMapSection() {
                 {/* Action Link Button */}
                 <div className="pt-2">
                   <Link href={activeHub.actionLink} className="block">
-                    <button className="w-full py-3 px-4 rounded-xl bg-terracotta-700 hover:bg-terracotta-800 text-white font-bold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 shadow-xs group cursor-pointer">
+                    <button className="w-full py-3 px-4 rounded-xl bg-black hover:bg-zinc-900 text-white font-bold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 shadow-xs group cursor-pointer">
                       <span>{activeHub.actionLabel}</span>
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </button>

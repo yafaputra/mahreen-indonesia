@@ -148,7 +148,7 @@ function InternshipContent() {
       {/* 1. HEADER SECTION (MATCHING SCREENSHOT WITH ELEGANT TYPOGRAPHY & STATS) */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-6 border-b border-zinc-200">
         <div className="space-y-2.5 max-w-2xl">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-terracotta-50 text-terracotta-800 text-xs font-semibold border border-terracotta-200 shadow-xs">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white text-terracotta-800 text-xs font-semibold border border-terracotta-200 shadow-xs">
             <Briefcase className="w-3.5 h-3.5 text-terracotta-700" />
             <span>Mahreen Internship Hub • Batch 2</span>
           </div>
@@ -208,7 +208,7 @@ function InternshipContent() {
                 className={`px-4 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer whitespace-nowrap ${
                   isActive
                     ? 'bg-terracotta-700 text-white shadow-xs'
-                    : 'bg-zinc-100/90 hover:bg-zinc-200/80 text-zinc-700 border border-zinc-200/80'
+                    : 'bg-white hover:bg-zinc-50 text-zinc-700 border border-zinc-200/80'
                 }`}
               >
                 {tab.label}
@@ -230,7 +230,7 @@ function InternshipContent() {
         </div>
 
         {filteredPositions.length === 0 ? (
-          <div className="p-12 text-center bg-zinc-50 rounded-3xl border border-dashed border-zinc-300 space-y-3">
+          <div className="p-12 text-center bg-white rounded-3xl border border-dashed border-zinc-300 space-y-3">
             <Briefcase className="w-10 h-10 text-zinc-400 mx-auto" />
             <h3 className="text-base font-bold text-zinc-800">Tidak ada posisi yang sesuai</h3>
             <p className="text-xs text-zinc-500">Coba ubah kata kunci pencarian atau reset filter di atas.</p>
@@ -259,7 +259,7 @@ function InternshipContent() {
                   >
                     <div>
                       {/* Image Thumbnail with Overlay Badges (Exact Newsroom Style) */}
-                      <div className="relative h-44 w-full overflow-hidden bg-zinc-100">
+                      <div className="relative h-44 w-full overflow-hidden bg-white">
                         <img
                           src={coverImg}
                           alt={pos.title}
@@ -306,7 +306,7 @@ function InternshipContent() {
                         </p>
 
                         {/* Stipend Strip */}
-                        <div className="p-2.5 rounded-xl bg-zinc-50 border border-zinc-200/80 flex items-center justify-between text-xs">
+                        <div className="p-2.5 rounded-xl bg-white border border-zinc-200/80 flex items-center justify-between text-xs">
                           <span className="font-semibold text-zinc-500 text-[11px]">Kompensasi:</span>
                           <span className="font-bold text-zinc-900 text-xs truncate max-w-[170px]">{pos.stipend}</span>
                         </div>
@@ -375,7 +375,7 @@ function InternshipContent() {
                 </div>
                 <button
                   onClick={() => setIsApplyModalOpen(false)}
-                  className="text-zinc-400 hover:text-zinc-600 text-lg p-1.5 rounded-xl hover:bg-zinc-100 cursor-pointer transition-colors"
+                  className="text-zinc-400 hover:text-zinc-600 text-lg p-1.5 rounded-xl hover:bg-zinc-50 cursor-pointer transition-colors"
                 >
                   ✕
                 </button>
@@ -390,7 +390,7 @@ function InternshipContent() {
                     className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
                       modalTab === 'detail'
                         ? 'bg-terracotta-700 text-white shadow-xs'
-                        : 'bg-zinc-100 text-zinc-600 hover:bg-zinc-200'
+                        : 'bg-white text-zinc-600 hover:bg-zinc-50'
                     }`}
                   >
                     📋 Rincian &amp; Kualifikasi
@@ -401,7 +401,7 @@ function InternshipContent() {
                     className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
                       modalTab === 'form'
                         ? 'bg-terracotta-700 text-white shadow-xs'
-                        : 'bg-zinc-100 text-zinc-600 hover:bg-zinc-200'
+                        : 'bg-white text-zinc-600 hover:bg-zinc-50'
                     }`}
                   >
                     ✍️ Formulir Lamaran
@@ -433,7 +433,7 @@ function InternshipContent() {
                 /* TAB 1: FULL JOB DESCRIPTION & REQUIREMENTS */
                 <div className="space-y-6 text-xs text-zinc-700">
                   {/* Meta strip */}
-                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 p-3.5 rounded-2xl bg-zinc-50 border border-zinc-200 text-center">
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 p-3.5 rounded-2xl bg-white border border-zinc-200 text-center">
                     <div>
                       <div className="text-[10px] text-zinc-400 uppercase font-semibold">Mode Kerja</div>
                       <div className="font-bold text-zinc-900 text-xs mt-0.5">{activePositionObj.workMode}</div>
@@ -521,7 +521,7 @@ function InternshipContent() {
                 /* TAB 2: APPLICATION FORM */
                 <form onSubmit={handleApplySubmit} className="space-y-4 text-xs">
                   {/* Role and Mode preview */}
-                  <div className="p-3.5 rounded-2xl bg-zinc-50 border border-zinc-200 space-y-1.5">
+                  <div className="p-3.5 rounded-2xl bg-white border border-zinc-200 space-y-1.5">
                     <div className="flex items-center justify-between">
                       <span className="font-bold text-zinc-900">{activePositionObj.title}</span>
                       <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-100 text-amber-900">
