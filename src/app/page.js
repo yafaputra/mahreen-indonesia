@@ -86,7 +86,7 @@ export default function HomePage() {
       tracks: ['UI/UX Mastery: Design Systems', 'Figma Advanced Components', 'Rapid Video Content Creation'],
       action: 'Jadwal Workshop & Event',
       link: '/newsroom',
-      badgeColor: 'neutral',
+      badgeColor: 'amber',
       btnVariant: 'outline', // Dual Style: Thick Black Border
     },
     {
@@ -97,7 +97,7 @@ export default function HomePage() {
       tracks: ['Sertifikat Akreditasi Proyek', 'Verifikasi Publik Terbuka', 'Rekomendasi Magang Industri'],
       action: 'Pengumuman & Cek Sertifikat',
       link: '/internship?program=certification#sertifikat-resmi',
-      badgeColor: 'emerald',
+      badgeColor: 'amber',
       btnVariant: 'outline', // Dual Style: Thick Black Border
     },
   ];

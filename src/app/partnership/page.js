@@ -33,7 +33,7 @@ const PARTNERSHIP_TRACKS = [
     subtitle: 'Mahreen Indonesia Internship & Learning',
     icon: GraduationCap,
     badge: 'Akademik & SKS',
-    color: 'emerald',
+    color: 'amber',
     description:
       'Kolaborasi strategis penyaluran mahasiswa magang berbasis proyek dunia nyata dengan konversi akademik (s/d 20 SKS), kuliah tamu praktisi, dan sertifikasi keahlian terverifikasi.',
     benefits: [
@@ -67,7 +67,7 @@ const PARTNERSHIP_TRACKS = [
     subtitle: 'Mahreen CSR & Peduli Mahreen',
     icon: HeartHandshake,
     badge: 'Social Impact',
-    color: 'rose',
+    color: 'amber',
     description:
       'Mengelola alokasi program CSR perusahaan secara terukur, akuntabel, dan berdampak nyata bagi pengentasan kemiskinan, pendidikan 3T, dan pelestarian alam Nusantara.',
     benefits: [
@@ -84,7 +84,7 @@ const PARTNERSHIP_TRACKS = [
     subtitle: 'Mahreen Studio (Creative Lifestyle)',
     icon: SparklesIcon,
     badge: 'Creative Lifestyle',
-    color: 'indigo',
+    color: 'amber',
     description:
       'Kolaborasi kreatif lintas industri untuk pembuatan apparel, official merchandise berkarakter, identitas visual modern, dan aktivasi event bersama.',
     benefits: [
@@ -151,9 +151,9 @@ export default function PartnershipPage() {
       {/* 1. SECTION HEADER (CLEAN WHITE / EDITORIAL DISPLAY) */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-6 border-b border-zinc-200">
         <div className="space-y-2 max-w-2xl">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 text-xs font-semibold border border-emerald-200 shadow-xs">
-            <Handshake className="w-3.5 h-3.5 text-emerald-700" />
-            <span>Business Development &amp; Strategic Partnership</span>
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-terracotta-50 text-terracotta-800 text-xs font-semibold border border-terracotta-200 shadow-xs">
+            <Handshake className="w-3.5 h-3.5 text-terracotta-700" />
+            <span>Pengembangan Bisnis &amp; Kemitraan Strategis</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold font-display text-zinc-900 tracking-tight">
             Mari Bangun Sesuatu yang <br />

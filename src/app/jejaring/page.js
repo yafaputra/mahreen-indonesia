@@ -233,30 +233,6 @@ export default function JejaringPage() {
           </div>
         </div>
 
-        {/* 2. QUICK JUMP PILLS */}
-        <div className="flex items-center gap-2 pt-6 overflow-x-auto scrollbar-none">
-          <a
-            href="#peta-nusantara"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold bg-terracotta-700 text-white shadow-xs hover:bg-terracotta-800 transition-colors shrink-0"
-          >
-            <Compass className="w-3.5 h-3.5" />
-            <span>Peta Interaktif 34 Provinsi</span>
-          </a>
-          <a
-            href="#ikatan-alumni"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700 hover:bg-zinc-200 hover:text-zinc-900 transition-colors shrink-0"
-          >
-            <GraduationCap className="w-3.5 h-3.5 text-zinc-500" />
-            <span>Ikatan Alumni Mahreen</span>
-          </a>
-          <a
-            href="#kemitraan-daerah"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700 hover:bg-zinc-200 hover:text-zinc-900 transition-colors shrink-0"
-          >
-            <Building2 className="w-3.5 h-3.5 text-zinc-500" />
-            <span>Inisiatif Kemitraan Daerah</span>
-          </a>
-        </div>
       </section>
 
       {/* 3. PETA SEBARAN NUSANTARA (INTERACTIVE MAP SECTION) */}
@@ -301,7 +277,7 @@ export default function JejaringPage() {
           </div>
 
           {/* Filter Pills */}
-          <div className="flex flex-wrap items-center gap-2 pt-1">
+          <div className="flex flex-wrap items-center gap-2 pt-0">
             {trackTabs.map((tab) => {
               const isActive = selectedAlumniTrack === tab.id;
               return (
