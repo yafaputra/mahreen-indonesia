@@ -33,6 +33,7 @@ import Spotlight from '@/components/aceternity/Spotlight';
 import BackgroundGrid from '@/components/aceternity/BackgroundGrid';
 import Sparkles from '@/components/aceternity/Sparkles';
 import CardSpotlight from '@/components/aceternity/CardSpotlight';
+import MotionPillFilter from '@/components/motion/MotionPillFilter';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/Tabs';
 import { StaggerContainer, StaggerItem, FadeInView } from '@/components/motion/MotionView';
 
@@ -174,21 +175,14 @@ export default function ProgramsPage() {
           </div>
         </div>
 
-        {/* Pillar Category Tabs with Motion Spring Glider */}
+        {/* Pillar Category Tabs with Motion.dev sliding spring pill */}
         <div className="overflow-x-auto pb-2 scrollbar-none">
-          <Tabs value={selectedPillar} onValueChange={setSelectedPillar} className="w-auto">
-            <TabsList className="bg-ivory-100 p-1.5 rounded-2xl border border-ivory-200">
-              {pillarTabs.map((tab) => (
-                <TabsTrigger
-                  key={tab.id}
-                  value={tab.id}
-                  className="px-3.5 py-1.5 text-xs font-semibold"
-                >
-                  {tab.label}
-                </TabsTrigger>
-              ))}
-            </TabsList>
-          </Tabs>
+          <MotionPillFilter
+            items={pillarTabs}
+            activeId={selectedPillar}
+            onChange={setSelectedPillar}
+            layoutId="programPillarPill"
+          />
         </div>
       </div>
 
@@ -213,22 +207,18 @@ export default function ProgramsPage() {
             const status = calculateProgramStatus(prog);
             const isBookmarked = bookmarkedProgramIds.includes(prog.id);
 
-            const pillarSpotlights = {
-              bisnis: { spot: 'rgba(245, 158, 11, 0.16)', border: 'rgba(245, 158, 11, 0.4)' },
-              teknologi: { spot: 'rgba(5, 150, 105, 0.16)', border: 'rgba(5, 150, 105, 0.4)' },
-              kreativitas: { spot: 'rgba(124, 58, 237, 0.16)', border: 'rgba(124, 58, 237, 0.4)' },
-              talenta: { spot: 'rgba(230, 74, 39, 0.16)', border: 'rgba(230, 74, 39, 0.4)' },
-              komunitas: { spot: 'rgba(37, 99, 235, 0.16)', border: 'rgba(37, 99, 235, 0.4)' },
-              sosial: { spot: 'rgba(225, 29, 72, 0.16)', border: 'rgba(225, 29, 72, 0.4)' },
+            // Uniform signature Coklat (Terracotta) spotlight saat di-hover
+            const pSpot = {
+              spot: 'rgba(100, 59, 23, 0.14)',
+              border: 'rgba(100, 59, 23, 0.45)',
             };
-            const pSpot = pillarSpotlights[prog.pillarId] || { spot: 'rgba(230, 74, 39, 0.16)', border: 'rgba(230, 74, 39, 0.4)' };
 
             return (
               <StaggerItem key={prog.id} className="h-full">
                 <CardSpotlight
                   spotlightColor={pSpot.spot}
                   borderColor={pSpot.border}
-                  className="flex flex-col justify-between h-full overflow-hidden bg-white border-zinc-200/90 hover:shadow-card transition-all group"
+                  className="flex flex-col justify-between h-full overflow-hidden bg-white border border-zinc-200 hover:border-terracotta-500 hover:shadow-card transition-all group rounded-2xl"
                 >
                   <div>
                     {/* Image Cover */}

@@ -37,6 +37,9 @@ import {
   GraduationCap,
   Star,
   Linkedin,
+  Rocket,
+  Target,
+  Move,
 } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';
@@ -47,14 +50,16 @@ import pillarsData from '@/data/pillars.json';
 import eventsData from '@/data/events.json';
 import { useMahreenStore } from '@/store/useMahreenStore';
 import { getPillarTheme } from '@/utils/pillarTheme';
+import { FadeInView } from '@/components/motion/MotionView';
 import {
-  FadeInView,
-  ScaleInView,
-} from '@/components/motion/MotionView';
-import Spotlight from '@/components/aceternity/Spotlight';
-import BackgroundGrid from '@/components/aceternity/BackgroundGrid';
-import Sparkles from '@/components/aceternity/Sparkles';
-import BorderBeam from '@/components/aceternity/BorderBeam';
+  Spotlight,
+  BackgroundGrid,
+  Sparkles,
+  BorderBeam,
+  FlipWords,
+  BackgroundLines,
+} from '@/components/aceternity';
+import { WordReveal } from '@/components/motion/MotionText';
 
 export default function HomePage() {
   const bookmarkedProgramIds = useMahreenStore((state) => state.bookmarkedProgramIds);
@@ -142,71 +147,86 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen space-y-16 sm:space-y-24 pb-20 bg-[#fff]">
-      {/* 1. HERO SECTION */}
-      <section className="relative pt-8 sm:pt-14 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8 border-b border-zinc-100 overflow-hidden">
+      {/* 1. HERO SECTION (ACETERNITY UI + MOTION.DEV POWERED) */}
+      <section className="relative pt-8 sm:pt-14 pb-14 sm:pb-20 px-4 sm:px-6 lg:px-8 border-b border-zinc-100 overflow-hidden bg-white">
+        {/* Aceternity UI Dual Directional Spotlights */}
         <Spotlight
-          className="-top-40 left-0 md:left-60 md:-top-20"
-          fill="#FFFFFF"
-          fillSecondary="#FAFAFA"
-          fillOpacity={0.07}
-          fillSecondaryOpacity={0.04}
+          className="-top-40 left-0 md:left-40 md:-top-20"
+          fill="rgba(100, 59, 23, 0.12)"
+          fillSecondary="rgba(217, 119, 6, 0.06)"
+          fillOpacity={1}
+          fillSecondaryOpacity={1}
+        />
+        <Spotlight
+          className="-top-20 -right-20 md:-right-10 opacity-70"
+          fill="rgba(24, 24, 27, 0.06)"
+          fillSecondary="rgba(100, 59, 23, 0.08)"
+          fillOpacity={1}
+          fillSecondaryOpacity={1}
         />
 
-        <BackgroundGrid pattern="dots" dotColor="rgba(0, 0, 0, 0.04)" className="py-2">
-          <div className="max-w-5xl mx-auto text-center space-y-7 relative">
-            {/* Eyebrow Badge */}
-            <div className="relative inline-flex items-center justify-center">
-              <Sparkles count={12} minSize={2} maxSize={3.5} />
-              <motion.div
-                initial={{ opacity: 0, y: -12, scale: 0.95 }}
-                animate={{ opacity: 1, y: 0, scale: 1 }}
-                transition={{ duration: 0.5, ease: 'easeOut' }}
-                className="relative z-10 inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/95 border border-terracotta-200/90 text-zinc-900 text-xs font-semibold shadow-xs hover:border-terracotta-400 transition-colors"
-              >
-                <span className="flex h-2 w-2 relative">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-terracotta-400 opacity-75" />
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-terracotta-600" />
-                </span>
-                <span className="font-bold text-terracotta-700">Membangun Ekosistem Generasi Masa Depan</span>
-              </motion.div>
-            </div>
+        <BackgroundLines className="py-2">
+          <BackgroundGrid pattern="grid" dotColor="rgba(0, 0, 0, 0.035)">
+            <div className="max-w-5xl mx-auto text-center space-y-7 relative">
+              {/* Aceternity Eyebrow Badge with BorderBeam */}
+              <div className="relative inline-flex items-center justify-center">
+                <Sparkles count={14} minSize={2} maxSize={3.5} />
+                <motion.div
+                  initial={{ opacity: 0, y: -12, scale: 0.95 }}
+                  animate={{ opacity: 1, y: 0, scale: 1 }}
+                  transition={{ duration: 0.5, ease: 'easeOut' }}
+                  className="relative z-10 inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/95 border border-zinc-300 text-zinc-900 text-xs font-semibold shadow-xs hover:border-black transition-colors overflow-hidden"
+                >
+                  <BorderBeam size={160} duration={6} colorFrom="#000000" colorTo="#a1a1aa" />
+                  <span className="flex h-2 w-2 relative">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-terracotta-400 opacity-75" />
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-terracotta-600" />
+                  </span>
+                  <span className="font-bold text-zinc-950">Membangun Ekosistem Generasi Masa Depan</span>
+                </motion.div>
+              </div>
 
-            {/* Main Headline */}
-            <motion.div
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1, ease: [0.21, 0.47, 0.32, 0.98] }}
-              className="space-y-4 max-w-3xl mx-auto"
-            >
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-zinc-900 tracking-tight font-display leading-[1.15]">
-                Dari Talenta Muda, <br className="hidden sm:inline" />
-                <span className="relative inline-block text-terracotta-800">
-                  Berkarya Nyata
-                  <svg
-                    className="absolute -bottom-1.5 sm:-bottom-2.5 left-0 w-full h-3 text-terracotta-700 overflow-visible"
-                    viewBox="0 0 250 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    preserveAspectRatio="none"
-                  >
-                    <motion.path
-                      initial={{ pathLength: 0, opacity: 0 }}
-                      animate={{ pathLength: 1, opacity: 1 }}
-                      transition={{ duration: 1.2, delay: 0.4, ease: 'easeInOut' }}
-                      d="M3 9C50 3 150 2 247 7C180 11 90 10 3 9Z"
-                      stroke="currentColor"
-                      strokeWidth="3.5"
-                      strokeLinecap="round"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </span>{' '}
-                untuk Indonesia.
-              </h1>
-              <p className="max-w-2xl mx-auto text-base sm:text-lg text-zinc-600 leading-relaxed font-normal">
-                Memberdayakan bisnis, mahasiswa, komunitas, dan organisasi melalui kreativitas, teknologi, pendidikan, dan kolaborasi yang bermakna. Building Ideas. Creating Impact.
-              </p>
-            </motion.div>
+              {/* Main Headline with Aceternity FlipWords */}
+              <motion.div
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.1, ease: [0.21, 0.47, 0.32, 0.98] }}
+                className="space-y-4 max-w-3xl mx-auto"
+              >
+                <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-zinc-950 tracking-tight font-display leading-[1.18]">
+                  Dari Talenta Muda, <br className="hidden sm:inline" />
+                  <span className="relative inline-block text-terracotta-800">
+                    Berkarya Nyata
+                    <svg
+                      className="absolute -bottom-1.5 sm:-bottom-2.5 left-0 w-full h-3 text-terracotta-700 overflow-visible"
+                      viewBox="0 0 250 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      preserveAspectRatio="none"
+                    >
+                      <motion.path
+                        initial={{ pathLength: 0, opacity: 0 }}
+                        animate={{ pathLength: 1, opacity: 1 }}
+                        transition={{ duration: 1.2, delay: 0.4, ease: 'easeInOut' }}
+                        d="M3 9C50 3 150 2 247 7C180 11 90 10 3 9Z"
+                        stroke="currentColor"
+                        strokeWidth="3.5"
+                        strokeLinecap="round"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>{' '}
+                  untuk <br className="sm:hidden" />
+                  <FlipWords
+                    words={['Indonesia.', 'UMKM Daerah.', 'Masa Depan.', 'Generasi Emas.']}
+                    className="font-black text-black underline decoration-terracotta-500/40 decoration-wavy underline-offset-4"
+                    duration={3000}
+                  />
+                </h1>
+                <p className="max-w-2xl mx-auto text-base sm:text-lg text-zinc-600 leading-relaxed font-normal">
+                  Memberdayakan bisnis, mahasiswa, komunitas, dan organisasi melalui kreativitas, teknologi, pendidikan, dan kolaborasi yang bermakna. Building Ideas. Creating Impact.
+                </p>
+              </motion.div>
 
             {/* Action Buttons (Dual Style Motion.dev) */}
             <motion.div
@@ -236,8 +256,82 @@ export default function HomePage() {
                 </Button>
               </Link>
             </motion.div>
+
+            {/* Motion.dev Interactive Draggable Micro-Chips with Clean SVGs */}
+            <div className="hidden sm:flex flex-wrap items-center justify-center gap-2.5 pt-3 text-xs select-none">
+              <span className="text-zinc-400 font-mono text-[11px] flex items-center gap-1.5">
+                <Move className="w-3 h-3 text-zinc-400" />
+                <span>Coba seret lencana:</span>
+              </span>
+              {[
+                { label: '34 Provinsi Terkoneksi', icon: Globe2, rotate: -1.5 },
+                { label: 'Batch 2 Terbuka', icon: Rocket, rotate: 1.5 },
+                { label: 'UI/UX Luxury Standard', icon: Palette, rotate: -2 },
+                { label: '100% Real Project', icon: Target, rotate: 2 },
+              ].map((chip, idx) => {
+                const IconComp = chip.icon;
+                return (
+                  <motion.div
+                    key={idx}
+                    drag
+                    dragConstraints={{ left: -50, right: 50, top: -25, bottom: 25 }}
+                    dragElastic={0.25}
+                    whileHover={{ scale: 1.08, rotate: 0, cursor: 'grab' }}
+                    whileTap={{ scale: 0.95, cursor: 'grabbing' }}
+                    initial={{ opacity: 0, scale: 0.8, rotate: chip.rotate }}
+                    animate={{ opacity: 1, scale: 1, rotate: chip.rotate }}
+                    transition={{ type: 'spring', stiffness: 450, damping: 20, delay: 0.35 + idx * 0.08 }}
+                    className="px-3 py-1.5 rounded-md bg-white border border-zinc-200 text-zinc-800 shadow-2xs font-semibold cursor-grab hover:border-black hover:shadow-xs transition-colors flex items-center gap-1.5"
+                  >
+                    <IconComp className="w-3.5 h-3.5 shrink-0 text-zinc-900" />
+                    <span>{chip.label}</span>
+                  </motion.div>
+                );
+              })}
+            </div>
           </div>
         </BackgroundGrid>
+      </BackgroundLines>
+    </section>
+
+      {/* 2. LIVE METRICS COUNTER STRIP (MOTION.DEV REAL-TIME STATS) */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 sm:-mt-10 relative z-20">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, ease: 'easeOut' }}
+          className="grid grid-cols-2 md:grid-cols-4 gap-4 p-6 sm:p-8 rounded-2xl bg-white border border-zinc-200 shadow-sm"
+        >
+          <div className="text-center space-y-1 border-r border-zinc-100 last:border-0">
+            <div className="text-2xl sm:text-4xl font-black font-display text-zinc-950">
+              <StatCounter end={34} suffix="" duration={1600} label="" />
+            </div>
+            <div className="text-xs font-bold text-zinc-800">Provinsi Terkoneksi</div>
+            <div className="text-[11px] text-zinc-500">Dari Sabang sampai Merauke</div>
+          </div>
+          <div className="text-center space-y-1 md:border-r border-zinc-100 last:border-0">
+            <div className="text-2xl sm:text-4xl font-black font-display text-zinc-950">
+              <StatCounter end={127} suffix="+" duration={1800} label="" />
+            </div>
+            <div className="text-xs font-bold text-zinc-800">UMKM Binaan</div>
+            <div className="text-[11px] text-zinc-500">Pendampingan digitalisasi</div>
+          </div>
+          <div className="text-center space-y-1 border-r border-zinc-100 last:border-0">
+            <div className="text-2xl sm:text-4xl font-black font-display text-zinc-950">
+              <StatCounter end={5240} suffix="+" duration={2000} label="" />
+            </div>
+            <div className="text-xs font-bold text-zinc-800">Talenta Terlatih</div>
+            <div className="text-[11px] text-zinc-500">Magang &amp; bootcamp intensif</div>
+          </div>
+          <div className="text-center space-y-1">
+            <div className="text-2xl sm:text-4xl font-black font-display text-zinc-950">
+              <StatCounter end={100} suffix="%" duration={1500} label="" />
+            </div>
+            <div className="text-xs font-bold text-zinc-800">Akses Terbuka</div>
+            <div className="text-[11px] text-zinc-500">Verifikasi sertifikat publik</div>
+          </div>
+        </motion.div>
       </section>
 
       {/* 4. MAHREEN LEARNING SHOWCASE (BOOTCAMP, WORKSHOP, SERTIFIKASI) */}
@@ -257,10 +351,15 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {learningTracks.map((item, idx) => (
-              <div
+              <motion.div
                 key={idx}
-                className="p-6 sm:p-7 rounded-xl border border-black bg-white hover:border-black transition-all duration-200 flex flex-col justify-between space-y-6 shadow-2xs hover:shadow-md group"
+                whileHover={{ y: -6, scale: 1.015 }}
+                transition={{ type: 'spring', stiffness: 400, damping: 24 }}
+                className="relative p-6 sm:p-7 rounded-xl border border-black bg-white hover:border-black transition-all duration-200 flex flex-col justify-between space-y-6 shadow-2xs hover:shadow-lg group overflow-hidden"
               >
+                {idx === 0 && (
+                  <BorderBeam size={220} duration={9} colorFrom="#000000" colorTo="#a1a1aa" />
+                )}
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-mono font-bold text-zinc-400 group-hover:text-zinc-900 transition-colors">
@@ -304,7 +403,7 @@ export default function HomePage() {
                     <span>{item.action}</span>
                   </Button>
                 </Link>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
@@ -329,11 +428,13 @@ export default function HomePage() {
             {whyMahreen.map((item, i) => {
               const IconComp = item.icon;
               return (
-                <div
+                <motion.div
                   key={i}
-                  className="p-6 rounded-3xl bg-white border border-zinc-200 hover:border-terracotta-300 transition-all space-y-3 shadow-2xs hover:shadow-xs group"
+                  whileHover={{ y: -5, scale: 1.015 }}
+                  transition={{ type: 'spring', stiffness: 350, damping: 22 }}
+                  className="p-6 rounded-3xl bg-white border border-zinc-200 hover:border-terracotta-400 transition-all space-y-3 shadow-2xs hover:shadow-md group cursor-default"
                 >
-                  <div className="w-11 h-11 rounded-2xl bg-terracotta-50 border border-terracotta-200 text-terracotta-700 flex items-center justify-center font-bold shadow-2xs group-hover:scale-105 transition-transform">
+                  <div className="w-11 h-11 rounded-2xl bg-terracotta-50 border border-terracotta-200 text-terracotta-700 flex items-center justify-center font-bold shadow-2xs group-hover:scale-110 transition-transform">
                     <IconComp className="w-5 h-5" />
                   </div>
                   <h3 className="text-base font-bold text-zinc-900 font-display group-hover:text-terracotta-700 transition-colors">
@@ -342,7 +443,7 @@ export default function HomePage() {
                   <p className="text-xs sm:text-sm text-zinc-600 leading-relaxed">
                     {item.desc}
                   </p>
-                </div>
+                </motion.div>
               );
             })}
           </div>
@@ -366,7 +467,11 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Window 1 */}
-            <div className="p-7 rounded-3xl bg-white border border-black shadow-2xs flex flex-col justify-between space-y-6">
+            <motion.div
+              whileHover={{ y: -6, scale: 1.015 }}
+              transition={{ type: 'spring', stiffness: 350, damping: 25 }}
+              className="p-7 rounded-3xl bg-white border border-black shadow-2xs hover:shadow-lg transition-all flex flex-col justify-between space-y-6"
+            >
               <div className="space-y-3">
                 <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-terracotta-50 text-terracotta-800 border border-terracotta-200">
                   Jadwal sedang dikonfirmasi
@@ -391,10 +496,14 @@ export default function HomePage() {
                   Pre-Register
                 </Link>
               </div>
-            </div>
+            </motion.div>
 
             {/* Window 2 */}
-            <div className="p-7 rounded-3xl bg-white border border-black shadow-2xs flex flex-col justify-between space-y-6">
+            <motion.div
+              whileHover={{ y: -6, scale: 1.015 }}
+              transition={{ type: 'spring', stiffness: 350, damping: 25 }}
+              className="p-7 rounded-3xl bg-white border border-black shadow-2xs hover:shadow-lg transition-all flex flex-col justify-between space-y-6"
+            >
               <div className="space-y-3">
                 <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-terracotta-50 text-terracotta-800 border border-terracotta-200">
                   Coming Soon
@@ -419,7 +528,7 @@ export default function HomePage() {
                   Early Interest
                 </Link>
               </div>
-            </div>
+            </motion.div>
 
             {/* Window 3 */}
             <div className="p-7 rounded-3xl bg-white border border-black shadow-2xs flex flex-col justify-between space-y-6">
@@ -474,9 +583,11 @@ export default function HomePage() {
             {events.slice(0, 3).map((ev) => {
               const isPaid = ev.pricingType === 'PAID';
               return (
-                <div
+                <motion.div
                   key={ev.id}
-                  className="rounded-3xl border border-zinc-200/90 bg-white overflow-hidden shadow-2xs hover:shadow-xs transition-all flex flex-col justify-between group"
+                  whileHover={{ y: -6, scale: 1.015 }}
+                  transition={{ type: 'spring', stiffness: 350, damping: 25 }}
+                  className="rounded-3xl border border-zinc-200/90 bg-white overflow-hidden shadow-2xs hover:shadow-lg hover:border-terracotta-400 transition-all flex flex-col justify-between group"
                 >
                   <div>
                     <div className="relative h-44 w-full overflow-hidden bg-zinc-100">
@@ -533,7 +644,7 @@ export default function HomePage() {
                       </span>
                     </Link>
                   </div>
-                </div>
+                </motion.div>
               );
             })}
           </div>

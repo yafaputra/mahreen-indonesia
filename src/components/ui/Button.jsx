@@ -31,29 +31,29 @@ export default function Button({
   );
 
   const variants = {
-    // Dual Style (Motion.dev Monochrome High-Contrast)
+    // Sleek High-Contrast Black Palette ("button sebaiknya warna hitam aja")
     primary:
-      'bg-zinc-900 hover:bg-black text-white border border-zinc-900 shadow-xs hover:shadow-md focus:ring-zinc-950 active:bg-zinc-950',
+      'bg-black hover:bg-zinc-800 text-white border border-black shadow-xs hover:shadow-md focus:ring-black active:bg-zinc-900',
     secondary:
-      'bg-zinc-100 hover:bg-zinc-200 text-zinc-900 border border-zinc-300/80 focus:ring-zinc-400 active:bg-zinc-300',
+      'bg-zinc-100 hover:bg-black text-zinc-900 hover:text-white border border-zinc-300/80 focus:ring-black active:bg-zinc-900',
     outline:
-      'bg-white hover:bg-zinc-900 text-zinc-900 hover:text-white border-2 border-zinc-900 shadow-2xs hover:shadow-xs focus:ring-zinc-950 active:scale-[0.99]',
+      'bg-white hover:bg-black text-black hover:text-white border-2 border-black shadow-2xs hover:shadow-xs focus:ring-black active:scale-[0.99]',
     dark:
-      'bg-white hover:bg-zinc-100 text-zinc-900 border border-white shadow-xs focus:ring-white active:bg-zinc-200',
+      'bg-black hover:bg-zinc-800 text-white border border-black shadow-xs focus:ring-black active:bg-zinc-900',
     ghost:
-      'text-zinc-800 hover:bg-zinc-100 hover:text-black border border-transparent focus:ring-zinc-300',
+      'text-zinc-900 hover:bg-zinc-100 hover:text-black border border-transparent focus:ring-zinc-300',
     accent:
-      'bg-zinc-900 hover:bg-black text-white border-2 border-amber-500/80 shadow-xs focus:ring-amber-500',
+      'bg-black hover:bg-zinc-800 text-white border-2 border-zinc-700 shadow-xs focus:ring-black',
     danger:
       'bg-rose-600 hover:bg-rose-700 text-white border border-rose-600 focus:ring-rose-500 shadow-xs',
 
     // Compatibility aliases
     default:
-      'bg-zinc-900 hover:bg-black text-white border border-zinc-900 shadow-xs hover:shadow-md focus:ring-zinc-950',
+      'bg-black hover:bg-zinc-800 text-white border border-black shadow-xs hover:shadow-md focus:ring-black',
     destructive:
       'bg-rose-600 hover:bg-rose-700 text-white border border-rose-600 focus:ring-rose-500',
     link:
-      'text-zinc-900 underline-offset-4 hover:underline p-0 h-auto font-bold border-0 bg-transparent shadow-none',
+      'text-black underline-offset-4 hover:underline p-0 h-auto font-bold border-0 bg-transparent shadow-none',
   };
 
   // Substantial, confident sizes ("di buat cukup besar")
@@ -72,10 +72,10 @@ export default function Button({
       onClick={onClick}
       whileHover={
         !disabled && !loading
-          ? { y: -2, transition: { type: 'spring', stiffness: 450, damping: 25 } }
+          ? { y: -2.5, scale: 1.015, transition: { type: 'spring', stiffness: 480, damping: 24 } }
           : undefined
       }
-      whileTap={!disabled && !loading ? { scale: 0.98, y: 0 } : undefined}
+      whileTap={!disabled && !loading ? { scale: 0.97, y: 0 } : undefined}
       className={cn(baseStyles, variants[variant] || variants.primary, sizes[size] || sizes.md, className)}
       {...props}
     >

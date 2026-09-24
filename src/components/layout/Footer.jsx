@@ -179,7 +179,7 @@ export default function Footer() {
                   />
                   <button
                     type="submit"
-                    className="absolute right-1.5 top-1.5 p-1 rounded-lg bg-terracotta-700 hover:bg-terracotta-800 text-white transition-colors cursor-pointer"
+                    className="absolute right-1.5 top-1.5 p-1 rounded-lg bg-black hover:bg-zinc-800 text-white transition-colors cursor-pointer"
                     aria-label="Kirim"
                   >
                     <Send className="w-3.5 h-3.5" />

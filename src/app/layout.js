@@ -6,7 +6,7 @@ import Toast from '@/components/layout/Toast';
 import ScrollProgressRibbon from '@/components/motion/ScrollProgressRibbon';
 
 export const metadata = {
-  title: 'MAHREEN OS — Ekosistem Digital Berkarya untuk Indonesia',
+  title: 'Mahreen Indonesia',
   description:
     'Platform ekosistem digital karya anak muda Indonesia menghubungkan talenta, UMKM daerah, komunitas, dan pemerintah dalam gerakan kolaboratif berkelanjutan.',
   keywords: [

@@ -429,16 +429,16 @@ export default function IndonesiaMapSection() {
         <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
           <button
             onClick={() => setSelectedRegionId('all')}
-            className={`relative px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-colors ${
+            className={`relative px-3.5 py-1.5 rounded-md text-xs font-semibold whitespace-nowrap transition-colors cursor-pointer ${
               selectedRegionId === 'all'
-                ? 'text-white'
+                ? 'text-white font-bold'
                 : 'bg-zinc-100 text-zinc-600 hover:bg-zinc-200'
             }`}
           >
             {selectedRegionId === 'all' && (
               <motion.div
                 layoutId="activeRegionPill"
-                className="absolute inset-0 bg-zinc-900 rounded-full shadow-xs"
+                className="absolute inset-0 bg-black rounded-md shadow-xs"
                 transition={{ type: 'spring', stiffness: 450, damping: 30 }}
               />
             )}
@@ -453,23 +453,23 @@ export default function IndonesiaMapSection() {
                   setActiveHub(region.hubs[0]);
                 }
               }}
-              className={`relative px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-colors flex items-center gap-1.5 ${
+              className={`relative px-3.5 py-1.5 rounded-md text-xs font-semibold whitespace-nowrap transition-colors flex items-center gap-1.5 cursor-pointer ${
                 selectedRegionId === region.id
-                  ? 'text-white'
+                  ? 'text-white font-bold'
                   : 'bg-zinc-100 text-zinc-600 hover:bg-zinc-200'
               }`}
             >
               {selectedRegionId === region.id && (
                 <motion.div
                   layoutId="activeRegionPill"
-                  className="absolute inset-0 bg-terracotta-700 rounded-full shadow-xs"
+                  className="absolute inset-0 bg-black rounded-md shadow-xs"
                   transition={{ type: 'spring', stiffness: 450, damping: 30 }}
                 />
               )}
               <span className="relative z-10">{region.name}</span>
               <span
-                className={`relative z-10 text-[10px] px-1.5 py-0.2 rounded-full ${
-                  selectedRegionId === region.id ? 'bg-white/20 text-white' : 'bg-zinc-200 text-zinc-700'
+                className={`relative z-10 text-[10px] px-1.5 py-0.2 rounded-md ${
+                  selectedRegionId === region.id ? 'bg-zinc-800 text-white' : 'bg-zinc-200 text-zinc-700'
                 }`}
               >
                 {region.hubs.length} Hub

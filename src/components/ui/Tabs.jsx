@@ -67,7 +67,7 @@ export function TabsTrigger({
       onClick={() => setActiveTab(value)}
       className={cn(
         'relative inline-flex items-center justify-center whitespace-nowrap rounded-lg px-3.5 py-1.5 text-xs font-semibold ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 cursor-pointer',
-        isActive ? 'text-zinc-900 font-bold' : 'text-zinc-600 hover:text-zinc-900',
+        isActive ? 'text-zinc-950 font-bold' : 'text-zinc-600 hover:text-terracotta-800',
         className
       )}
     >

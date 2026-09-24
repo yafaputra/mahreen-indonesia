@@ -19,6 +19,7 @@ import { useMahreenStore } from '@/store/useMahreenStore';
 import { StaggerContainer, StaggerItem } from '@/components/motion/MotionView';
 import CardSpotlight from '@/components/aceternity/CardSpotlight';
 import positionsData from '@/data/internship-positions.json';
+import MotionPillFilter from '@/components/motion/MotionPillFilter';
 
 const positionImages = {
   'web-developer': 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80',
@@ -197,25 +198,13 @@ function InternshipContent() {
           </div>
         </div>
 
-        {/* Filter Badges Carousel (Pill shape rounded-full for ultra-clean look) */}
-        <div className="flex flex-wrap items-center gap-2 pt-1">
-          {filterTabs.map((tab) => {
-            const isActive = selectedFilter === tab.id;
-            return (
-              <button
-                key={tab.id}
-                onClick={() => setSelectedFilter(tab.id)}
-                className={`px-4 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer whitespace-nowrap ${
-                  isActive
-                    ? 'bg-terracotta-700 text-white shadow-xs'
-                    : 'bg-white hover:bg-zinc-50 text-zinc-700 border border-zinc-200/80'
-                }`}
-              >
-                {tab.label}
-              </button>
-            );
-          })}
-        </div>
+        {/* Filter Badges with Motion.dev sliding spring pill */}
+        <MotionPillFilter
+          items={filterTabs}
+          activeId={selectedFilter}
+          onChange={setSelectedFilter}
+          layoutId="internshipFilterPill"
+        />
       </div>
 
       {/* 3. POSITION CARDS GRID (DAFTAR POSISI MAGANG MAHREEN) */}
@@ -338,7 +327,7 @@ function InternshipContent() {
                         variant="primary"
                         size="sm"
                         onClick={() => handleOpenApplyModal(pos)}
-                        className="cursor-pointer text-xs rounded-xl px-4"
+                        className="cursor-pointer text-xs px-4"
                       >
                         Lamar Posisi Ini
                       </Button>
@@ -387,10 +376,10 @@ function InternshipContent() {
                   <button
                     type="button"
                     onClick={() => setModalTab('detail')}
-                    className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
+                    className={`px-4 py-2 rounded-md text-xs font-bold transition-all cursor-pointer ${
                       modalTab === 'detail'
-                        ? 'bg-terracotta-700 text-white shadow-xs'
-                        : 'bg-white text-zinc-600 hover:bg-zinc-50'
+                        ? 'bg-black text-white shadow-xs'
+                        : 'bg-zinc-100 text-zinc-600 hover:text-black hover:bg-zinc-200/70'
                     }`}
                   >
                     📋 Rincian &amp; Kualifikasi
@@ -398,10 +387,10 @@ function InternshipContent() {
                   <button
                     type="button"
                     onClick={() => setModalTab('form')}
-                    className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
+                    className={`px-4 py-2 rounded-md text-xs font-bold transition-all cursor-pointer ${
                       modalTab === 'form'
-                        ? 'bg-terracotta-700 text-white shadow-xs'
-                        : 'bg-white text-zinc-600 hover:bg-zinc-50'
+                        ? 'bg-black text-white shadow-xs'
+                        : 'bg-zinc-100 text-zinc-600 hover:text-black hover:bg-zinc-200/70'
                     }`}
                   >
                     ✍️ Formulir Lamaran

@@ -6,3 +6,5 @@ export { default as BorderBeam } from './BorderBeam';
 export { default as ShimmerButton } from './ShimmerButton';
 export { BentoGrid, BentoGridItem } from './BentoGrid';
 export { default as BackgroundGradient } from './BackgroundGradient';
+export { default as FlipWords } from './FlipWords';
+export { default as BackgroundLines } from './BackgroundLines';

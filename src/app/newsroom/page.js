@@ -26,6 +26,7 @@ import CardSpotlight from '@/components/aceternity/CardSpotlight';
 import { StaggerContainer, StaggerItem, FadeInView } from '@/components/motion/MotionView';
 import eventsData from '@/data/events.json';
 import { useMahreenStore } from '@/store/useMahreenStore';
+import MotionPillFilter from '@/components/motion/MotionPillFilter';
 
 export default function NewsroomPage() {
   const { events, speakers } = eventsData;
@@ -143,25 +144,13 @@ export default function NewsroomPage() {
           </div>
         </div>
 
-        {/* Filter Badges Carousel */}
-        <div className="flex flex-wrap items-center gap-2 pt-1">
-          {filterTabs.map((tab) => {
-            const isActive = selectedFilter === tab.id;
-            return (
-              <button
-                key={tab.id}
-                onClick={() => setSelectedFilter(tab.id)}
-                className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
-                  isActive
-                    ? 'bg-terracotta-700 text-white shadow-xs'
-                    : 'bg-zinc-100 hover:bg-zinc-200/80 text-zinc-700 border border-zinc-200/80'
-                }`}
-              >
-                {tab.label}
-              </button>
-            );
-          })}
-        </div>
+        {/* Filter Badges with Motion.dev sliding pill */}
+        <MotionPillFilter
+          items={filterTabs}
+          activeId={selectedFilter}
+          onChange={setSelectedFilter}
+          layoutId="newsroomFilterPill"
+        />
       </div>
 
       {/* 3. EVENT CARDS GRID (DAFTAR EVENT MAHREEN) */}
@@ -200,9 +189,9 @@ export default function NewsroomPage() {
               return (
                 <StaggerItem key={ev.id} className="h-full">
                   <CardSpotlight
-                    spotlightColor={isPaid ? 'rgba(230, 74, 39, 0.14)' : 'rgba(5, 150, 105, 0.14)'}
-                    borderColor={isPaid ? 'rgba(230, 74, 39, 0.35)' : 'rgba(5, 150, 105, 0.35)'}
-                    className="flex flex-col justify-between h-full overflow-hidden bg-white border-zinc-200/90 shadow-2xs hover:shadow-xs transition-all group"
+                    spotlightColor="rgba(100, 59, 23, 0.14)"
+                    borderColor="rgba(100, 59, 23, 0.45)"
+                    className="flex flex-col justify-between h-full overflow-hidden bg-white border border-zinc-200 hover:border-terracotta-500 shadow-2xs hover:shadow-xs transition-all group rounded-2xl"
                   >
                     <div>
                       {/* Image Thumbnail with Overlay Badges */}
@@ -295,7 +284,7 @@ export default function NewsroomPage() {
                       </button>
 
                       <Button
-                        variant={isRegistered ? 'success' : isPaid ? 'primary' : 'secondary'}
+                        variant={isRegistered ? 'secondary' : isPaid ? 'primary' : 'outline'}
                         size="sm"
                         onClick={() => handleRegisterEvent(ev)}
                         className="cursor-pointer text-xs"
@@ -329,19 +318,19 @@ export default function NewsroomPage() {
           {speakers.map((spk) => (
             <div
               key={spk.id}
-              className="p-5 rounded-2xl bg-white border border-zinc-200/90 shadow-2xs hover:shadow-xs transition-all flex flex-col justify-between space-y-4"
+              className="p-5 rounded-2xl bg-white border border-zinc-200 shadow-2xs hover:shadow-md hover:border-terracotta-500 transition-all flex flex-col justify-between space-y-4 group"
             >
               <div className="space-y-3">
-                <div className="relative w-20 h-20 rounded-2xl overflow-hidden border border-zinc-200">
+                <div className="relative w-20 h-20 rounded-2xl overflow-hidden border border-zinc-200 group-hover:border-terracotta-300 transition-colors">
                   <img
                     src={spk.avatar}
                     alt={spk.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
 
                 <div>
-                  <h3 className="text-base font-bold text-zinc-900">{spk.name}</h3>
+                  <h3 className="text-base font-bold text-zinc-900 group-hover:text-terracotta-800 transition-colors">{spk.name}</h3>
                   <div className="text-xs font-semibold text-terracotta-700">{spk.role}</div>
                   <div className="text-[11px] text-zinc-400 font-medium mt-0.5">{spk.specialty}</div>
                 </div>
@@ -358,9 +347,9 @@ export default function NewsroomPage() {
                 </div>
                 <Link
                   href="/mentorship"
-                  className="text-xs font-bold text-terracotta-700 hover:underline"
+                  className="text-xs font-bold text-terracotta-700 hover:text-terracotta-900 group-hover:translate-x-1 transition-all inline-flex items-center gap-1"
                 >
-                  Sesi 1-on-1 →
+                  <span>Sesi 1-on-1 →</span>
                 </Link>
               </div>
             </div>
