@@ -1,0 +1,158 @@
+[
+  {
+    "id": "kreativitas",
+    "name": "Kreativitas & Seni",
+    "shortName": "Kreativitas",
+    "headline": "Mengelevasi Ekspresi Budaya & Identitas Estetika Nusantara",
+    "description": "Menjadikan kekayaan tradisi, wastra, narasi rakyat, dan seni kriya sebagai motor penggerak ekonomi kreatif modern. Kami memfasilitasi kreator muda untuk meremajakan warisan leluhur menjadi produk visual, film, musik, dan desain kontemporer yang relevan.",
+    "color": "#DE836E",
+    "accentColor": "#C84B31",
+    "stats": {
+      "talentaCount": 1420,
+      "karyaCount": 380,
+      "provinsiCount": 28,
+      "label": "Karya Terarsip"
+    },
+    "subInitiatives": [
+      { "id": "sub-k-1", "name": "Digital Heritage Lab", "desc": "Arsip 3D & parametrik motif adati" },
+      { "id": "sub-k-2", "name": "Sinema Pesisir", "desc": "Festival film dokumenter independen" },
+      { "id": "sub-k-3", "name": "Studio Wastra Muda", "desc": "Kolaborasi fashion designer & penenun" }
+    ],
+    "relatedProgramIds": ["prog-3", "prog-6"],
+    "impactHighlights": [
+      "380+ Aset visual tradisi terdigitalisasi dan dapat diakses bebas",
+      "Kolaborasi 42 maestro penenun tradisional dengan 80 desainer muda",
+      "Penayangan film dokumenter budaya di 120 layar tancap desa"
+    ]
+  },
+  {
+    "id": "teknologi",
+    "name": "Teknologi Digital & Rekayasa",
+    "shortName": "Teknologi",
+    "headline": "Membangun Teknologi Tepat Guna yang Membumi di Pelosok Negeri",
+    "description": "Bukan sekadar mengejar tren digital global, tetapi merekayasa sistem informasi, kecerdasan buatan terapan, dan perangkat keras IoT murah yang menjawab persoalan riil nelayan, petani, dan sekolah terpencil.",
+    "color": "#0D9488",
+    "accentColor": "#059669",
+    "stats": {
+      "talentaCount": 1150,
+      "karyaCount": 210,
+      "provinsiCount": 31,
+      "label": "Solusi IoT & Software"
+    },
+    "subInitiatives": [
+      { "id": "sub-t-1", "name": "TaniSensor Network", "desc": "Sensor kesuburan tanah offline" },
+      { "id": "sub-t-2", "name": "Smart Telemetri Air", "desc": "Sistem pantau sumber mata air desa" },
+      { "id": "sub-t-3", "name": "Open-Source GovTech", "desc": "Modul layanan warga bebas lisensi" }
+    ],
+    "relatedProgramIds": ["prog-2", "prog-4"],
+    "impactHighlights": [
+      "Sensor tanah presisi menghemat 35% biaya pupuk ratusan petani",
+      "Sistem telemetri radio LoRa mencegah kekeringan di 4 desa dataran tinggi",
+      "Platform edukasi offline mandiri energi di pulau terluar"
+    ]
+  },
+  {
+    "id": "talenta",
+    "name": "Pengembangan Talenta Muda",
+    "shortName": "Talenta",
+    "headline": "Membentuk Karakter Kepemimpinan, Keterampilan Masa Depan & Integritas",
+    "description": "Menyediakan jalur akselerasi karir dan fellowship berdampak sosial tinggi. Menghubungkan generasi muda berbakat dari seluruh perguruan tinggi dan sekolah vokasi dengan mentor industri terbaik dan instansi pelayanan publik.",
+    "color": "#3B82F6",
+    "accentColor": "#1E40AF",
+    "stats": {
+      "talentaCount": 5240,
+      "karyaCount": 490,
+      "provinsiCount": 34,
+      "label": "Talenta Terakselerasi"
+    },
+    "subInitiatives": [
+      { "id": "sub-l-1", "name": "GovTech Fellowship", "desc": "Residensi 6 minggu di dinas daerah" },
+      { "id": "sub-l-2", "name": "Mahreen Mentorship Circle", "desc": "Mentoring 1-on-1 bersama praktisi" },
+      { "id": "sub-l-3", "name": "Akademi Vokasi Unggul", "desc": "Pelatihan skill praktis bersertifikat" }
+    ],
+    "relatedProgramIds": ["prog-7"],
+    "impactHighlights": [
+      "94% Lulusan fellowship berkarier di sektor strategis nasional",
+      "Pendampingan langsung oleh 150+ mentor lintas disiplin ilmu",
+      "Penyaluran beasiswa karya dan hibah prototipe inovasi"
+    ]
+  },
+  {
+    "id": "bisnis",
+    "name": "Bisnis & Kemandirian UMKM",
+    "shortName": "Bisnis",
+    "headline": "Memperkuat Pondasi Kedaulatan Ekonomi Rakyat melalui Modernisasi Usaha",
+    "description": "Mendampingi pelaku usaha mikro dan wirausahawan pemula untuk naik kelas. Membantu perajin kriya, olahan pangan lokal, dan produk sirkular menembus etalase retail nasional serta pasar ekspor bernilai tinggi.",
+    "color": "#D97706",
+    "accentColor": "#B45309",
+    "stats": {
+      "talentaCount": 890,
+      "karyaCount": 127,
+      "provinsiCount": 26,
+      "label": "UMKM Binaan Naik Kelas"
+    },
+    "subInitiatives": [
+      { "id": "sub-b-1", "name": "UMKM Digital Accelerator", "desc": "Peningkatan omzet & etalase online" },
+      { "id": "sub-b-2", "name": "Green Economy Incubator", "desc": "Bisnis sirkular limbah bernilai ekspor" },
+      { "id": "sub-b-3", "name": "Koperasi Sinergi Pemuda", "desc": "Akses pendanaan gotong-royong adil" }
+    ],
+    "relatedProgramIds": ["prog-1", "prog-5"],
+    "impactHighlights": [
+      "127 UMKM binaan mencatatkan kenaikan omzet rata-rata 180%",
+      "Pengembangan 15 model bisnis sirkular bernilai ekspor",
+      "Akses pendanaan tanpa bunga memberatkan rentenir bagi perajin"
+    ]
+  },
+  {
+    "id": "komunitas",
+    "name": "Jejaring Komunitas & Kolaborasi",
+    "shortName": "Komunitas",
+    "headline": "Menjahit Titik-Titik Aksi Lokal Menjadi Gerakan Perubahan Kolektif",
+    "description": "Menghubungkan ratusan komunitas pemuda, karang taruna, perhimpunan mahasiswa daerah, dan kolektif seni agar tidak berjalan sendirian. Menyediakan ruang temu, berbagi sumber daya, dan menyelaraskan agenda aksi bersama.",
+    "color": "#8B5CF6",
+    "accentColor": "#6D28D9",
+    "stats": {
+      "talentaCount": 2800,
+      "karyaCount": 160,
+      "provinsiCount": 34,
+      "label": "Simpul Komunitas Aktif"
+    },
+    "subInitiatives": [
+      { "id": "sub-c-1", "name": "Nusantara Youth Hub", "desc": "Ruang temu jejaring lintas kota" },
+      { "id": "sub-c-2", "name": "Gotong Royong Resource Pool", "desc": "Sharing aset, alat, dan pemateri" },
+      { "id": "sub-c-3", "name": "Rembuk Pemuda Bangsa", "desc": "Forum audiensi aspirasi dengan pembuat kebijakan" }
+    ],
+    "relatedProgramIds": ["prog-8"],
+    "impactHighlights": [
+      "89 Kolaborasi antar-komunitas pemuda beda pulau",
+      "Penyelenggaraan 240+ ruang rembuk dan lokakarya komunitas",
+      "Akses gratis ke toolkit manajemen gerakan sosial"
+    ]
+  },
+  {
+    "id": "sosial",
+    "name": "Kontribusi Sosial & Pengabdian",
+    "shortName": "Sosial",
+    "headline": "Hadir Membela yang Rentan dan Memastikan Kemajuan Dinikmati Semua",
+    "description": "Menyalurkan energi altruisme generasi muda ke garis depan aksi kemanusiaan. Dari program literasi pulau terluar, kesiapsiagaan tanggap bencana, advokasi disabilitas, hingga kelestarian mata air dan hutan adat.",
+    "color": "#E11D48",
+    "accentColor": "#BE123C",
+    "stats": {
+      "talentaCount": 3100,
+      "karyaCount": 240,
+      "provinsiCount": 30,
+      "label": "Aksi Relawan Tereksekusi"
+    },
+    "subInitiatives": [
+      { "id": "sub-s-1", "name": "Ekspedisi Guru Relawan", "desc": "Pendidikan karakter di pulau 3T" },
+      { "id": "sub-s-2", "name": "Ruang Sahabat Difabel", "desc": "Advokasi fasilitas inklusif di ruang publik" },
+      { "id": "sub-s-3", "name": "Relawan Siaga Bencana", "desc": "Respon cepat berbasis pemuda lokal" }
+    ],
+    "relatedProgramIds": ["prog-4"],
+    "impactHighlights": [
+      "15 Pulau terluar mendapatkan suplai perpustakaan digital offline",
+      "52 Ruang usaha dan fasilitas publik didampingi menjadi ramah disabilitas",
+      "Penanaman 25.000 bibit mangrove dan pelindung mata air desa"
+    ]
+  }
+]

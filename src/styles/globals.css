@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Cinzel:wght@600;700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-terracotta: #913E2A;
+    --primary-terracotta-dark: #64291B;
+    --base-ivory: #FAF8F4;
+    --accent-ochre: #B45309;
+    --accent-forest: #235347;
+    --ink-charcoal: #211D1B;
+  }
+
+  body {
+    @apply bg-white text-nusantara-charcoal antialiased min-h-screen selection:bg-terracotta-100 selection:text-terracotta-900;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Custom subtle matte scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FAFAFA;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #E4E4E7;
+    border-radius: 0;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #CA3412;
+  }
+}
+
+/* Crisp Clean Natural Background (No murky dots or heavy patterns) */
+.bg-clean-canvas {
+  background-color: #FFFFFF;
+}
+
+.bg-soft-canvas {
+  background-color: #FBFBFA;
+}
+
+/* Clean Card Hover (Natural 1px border elevation, no neon glow) */
+.card-clean-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.card-clean-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px -4px rgba(24, 24, 27, 0.06);
+  border-color: #E64A27;
+}
+
+/* Shimmer Loading Skeleton */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, #F4EFE6 25%, #FAF8F4 50%, #F4EFE6 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Spin Slow for badges and compass */
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 20s linear infinite;
+}
+
+/* Official Seal / Stamp Effect */
+.seal-stamp {
+  border: 2px dashed #913E2A;
+  box-shadow: inset 0 0 0 2px #FAF8F4, inset 0 0 0 3px #913E2A;
+}
+
+/* Aceternity Luminous Text Gradients */
+.text-gradient-nusantara {
+  color: #913E2A;
+}
+
+.text-gradient-gold {
+  color: #B45309;
+}
+
+/* Aceternity Glowing Card & Pill Badges */
+.badge-shimmer-border {
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 0;
+  padding: 1px;
+}
+
+.badge-shimmer-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 0;
+  background: #E4E4E7;
+  z-index: -1;
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "karya-1",
+    "title": "BatikCraft OS: Katalog Digital & Kurasi Wastra Trusmi",
+    "slug": "batikcraft-os-trusmi",
+    "creator": {
+      "name": "Arif Dananjaya & Tim Sinergi",
+      "origin": "Cirebon, Jawa Barat",
+      "role": "Fullstack Developer & Brand Strategist",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80"
+    },
+    "category": "Untuk UMKM",
+    "pillarId": "bisnis",
+    "summary": "Platform kurasi motif batik Trusmi dengan pemindaian pola digital dan direct-checkout langsung ke WhatsApp perajin rumahan.",
+    "description": "Proyek kolaboratif 4 bulan bersama 23 perajin batik canting Trusmi Cirebon. Menyajikan arsip digital makna filosofis 60+ motif lawas dan menghubungkan pesanan kustom korporat tanpa potongan komisi pihak ketiga.",
+    "impactMetric": "23 UMKM Terbantu & Omzet Naik 210%",
+    "image": "https://images.unsplash.com/photo-1607344645866-009c320c5ab8?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["Wastra Nusantara", "E-Commerce Inklusif", "Kurasi Digital", "UMKM Cirebon"],
+    "dateCreated": "2026-08-14",
+    "reactions": {
+      "apresiasi": 142,
+      "inspiratif": 98,
+      "keren": 76
+    },
+    "comments": [
+      {
+        "id": "c-101",
+        "author": "Nadia Larasati",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80",
+        "timestamp": "2026-08-16T10:30:00Z",
+        "content": "Inisiatif luar biasa! Fitur scanner makna motifnya sangat mendidik untuk generasi muda yang sering tidak tahu filosofi batik.",
+        "replies": [
+          {
+            "id": "c-101-1",
+            "author": "Arif Dananjaya",
+            "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80",
+            "timestamp": "2026-08-16T14:15:00Z",
+            "content": "Terima kasih banyak Mbak Nadia! Saat ini kami sedang kembangkan versi offline-first agar perajin di pelosok tetap lancar input stok."
+          }
+        ]
+      },
+      {
+        "id": "c-102",
+        "author": "Budi Prasetyo (Dinas KUKM)",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80",
+        "timestamp": "2026-08-18T08:00:00Z",
+        "content": "Model pemberdayaan langsung seperti ini patut direplikasi di sentra tenun daerah lain. Salut untuk tim!",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "id": "karya-2",
+    "title": "TaniSensor Nusantara: IoT Detektor Kesuburan Tanah Murah",
+    "slug": "tanisensor-nusantara-iot",
+    "creator": {
+      "name": "Fajar Hidayat & Lab Rekayasa Tani",
+      "origin": "Garut, Jawa Barat",
+      "role": "Hardware Hacker & Agronomis Muda",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"
+    },
+    "category": "Untuk Komunitas",
+    "pillarId": "teknologi",
+    "summary": "Tongkat sensor tanah berbiaya di bawah Rp 150.000 dengan display bahasa daerah untuk takaran pupuk presisi.",
+    "description": "Mengatasi krisis boros pupuk kimia dengan modul sensor NPK & pH mandiri. Data ditampilkan dalam Bahasa Sunda dan Jawa sederhana di layar LCD, membantu 300+ petani bawang dan cabai menekan ongkos produksi hingga 35%.",
+    "impactMetric": "310 Petani Terbantu & Hemat Pupuk 35%",
+    "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["AgriTech", "Open Source Hardware", "Kedaulatan Pangan", "IoT Rakyat"],
+    "dateCreated": "2026-08-20",
+    "reactions": {
+      "apresiasi": 189,
+      "inspiratif": 215,
+      "keren": 164
+    },
+    "comments": [
+      {
+        "id": "c-201",
+        "author": "Kuswanto (Ketua Gapoktan)",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80",
+        "timestamp": "2026-08-22T09:40:00Z",
+        "content": "Alat ini beneran ngebantu petani sepuh yang gak paham angka rumit. Tinggal tancep langsung tahu kurang apa tanahnya.",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "id": "karya-3",
+    "title": "Arsip Suara Bahari: Podcast & Peta Interaktif Cerita Nelayan Tradisional",
+    "slug": "arsip-suara-bahari",
+    "creator": {
+      "name": "Sekar Ayu & Kolektif Ombak Bicara",
+      "origin": "Banda Neira, Maluku",
+      "role": "Audio Documentarian & Peneliti Bahari",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+    },
+    "category": "Untuk Daerah",
+    "pillarId": "kreativitas",
+    "summary": "Perekaman soundscape bawah laut dan folklore navigasi bintang suku laut kepulauan Maluku dalam format audio imersif.",
+    "description": "Menyelamatkan tradisi lisan pelaut kepulauan rempah yang terancam punah. Dikemas menjadi website multimedia interaktif yang digunakan 14 sekolah di Kepulauan Banda sebagai bahan ajar muatan lokal kemaritiman.",
+    "impactMetric": "14 Sekolah Mengadopsi & 1.200 Jam Dengar",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["Kemaritiman", "Kearifan Lokal", "Soundscape", "Maluku Bangkit"],
+    "dateCreated": "2026-08-28",
+    "reactions": {
+      "apresiasi": 112,
+      "inspiratif": 154,
+      "keren": 89
+    },
+    "comments": []
+  },
+  {
+    "id": "karya-4",
+    "title": "Jelajah Aksara: Font Tipografi Modern Terinspirasi Aksara Nusantara",
+    "slug": "jelajah-aksara-font-nusantara",
+    "creator": {
+      "name": "Rizky Ramadhan",
+      "origin": "Surakarta, Jawa Tengah",
+      "role": "Type Designer & Illustrator",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=200&q=80"
+    },
+    "category": "Untuk Komunitas",
+    "pillarId": "kreativitas",
+    "summary": "Keluarga font open-source yang memadukan keanggunan Aksara Jawa, Batak, dan Lontara untuk desain grafis modern.",
+    "description": "Mengubah persepsi bahwa aksara kuno itu kuno dan kaku. Dikembangkan dengan variable-font support agar bisa dipakai bebas oleh jutaan desainer poster, kemasan produk lokal, dan UI/UX aplikasi anak bangsa.",
+    "impactMetric": "45.000+ Download & Dipakai 120 Brand Lokal",
+    "image": "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["Tipografi", "Aksara Jawa", "Open Source Design", "Wajah Bangsa"],
+    "dateCreated": "2026-09-02",
+    "reactions": {
+      "apresiasi": 178,
+      "inspiratif": 134,
+      "keren": 230
+    },
+    "comments": []
+  },
+  {
+    "id": "karya-5",
+    "title": "KawanDifabel: Aksesibilitas UMKM untuk Pelanggan Tuli & Netra",
+    "slug": "kawandifabel-aksesibilitas-umkm",
+    "creator": {
+      "name": "Tirta Pratama & Sahabat Inklusi",
+      "origin": "Denpasar, Bali",
+      "role": "Accessibility Specialist & Social Activist",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=200&q=80"
+    },
+    "category": "Untuk UMKM",
+    "pillarId": "sosial",
+    "summary": "Toolkit fisik & digital daftar menu braille, visual order card, dan panduan gestur BISINDO untuk kedai kopi & warung makan.",
+    "description": "Membantu 50 kedai lokal di Bali dan Malang menjadi ramah disabilitas tanpa renovasi mahal. Menghadirkan inklusivitas nyata di mana teman tuli dan perajin katering ramah netra bisa bertransaksi dengan hangat dan setara.",
+    "impactMetric": "52 Kafe Inklusif & 1.800 Transaksi Difabel",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["Inklusivitas", "Disabilitas Berdaya", "Hospitality", "Sosial Nyata"],
+    "dateCreated": "2026-09-05",
+    "reactions": {
+      "apresiasi": 267,
+      "inspiratif": 312,
+      "keren": 140
+    },
+    "comments": []
+  },
+  {
+    "id": "karya-6",
+    "title": "PoskoAir Bersih IoT: Pemantau Mata Air Pegunungan Berbasis LoRa",
+    "slug": "posko-air-bersih-lora",
+    "creator": {
+      "name": "Gede Wahyu Saputra",
+      "origin": "Bangli, Bali",
+      "role": "Embedded Systems Engineer",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80"
+    },
+    "category": "Untuk Daerah",
+    "pillarId": "teknologi",
+    "summary": "Jaringan telemetri nirkabel jarak jauh tanpa sinyal seluler untuk mendeteksi debit dan kejernihan mata air suci desa.",
+    "description": "Menggunakan frekuensi radio LoRa 915MHz dengan tenaga panel surya mini. Mencegah bencana kekeringan di 4 desa lereng Gunung Batur dengan peringatan dini otomatis ke pengurus Subak.",
+    "impactMetric": "4 Desa Terlindungi & 3.400 KK Teraliri",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["IoT Pedesaan", "Manajemen Air", "Subak Bali", "Mitigasi Kekeringan"],
+    "dateCreated": "2026-09-10",
+    "reactions": {
+      "apresiasi": 156,
+      "inspiratif": 180,
+      "keren": 128
+    },
+    "comments": []
+  }
+]

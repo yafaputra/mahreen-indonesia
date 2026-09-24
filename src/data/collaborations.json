@@ -1,0 +1,254 @@
+[
+  {
+    "id": "collab-01",
+    "title": "Digitalisasi & Virtual Tour Desa Adat Toraja",
+    "tagline": "Dokumentasi 3D dan etalase digital kriya ukir kayu Tongkonan untuk pariwisata beretika",
+    "category": "Pariwisata & Budaya",
+    "province": "Sulawesi Selatan",
+    "city": "Tana Toraja",
+    "initiator": {
+      "name": "Yoseph Limbong",
+      "role": "Arsitek Vernakular & Peneliti Budaya",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+    },
+    "description": "Inisiatif pelestarian tata ruang dan ornamen ukir Tongkonan melalui digital twins dan arsip interaktif berbasis web, membantu pengrajin lokal menjangkau kurator seni dunia.",
+    "objectives": [
+      "Membuat 8 model 3D rumah adat Tongkonan dengan deskripsi filosofis",
+      "Membangun portal katalog etalase kriya ukir langsung dari pengrajin",
+      "Melatih 15 pemuda lokal sebagai pengelola konten digital desa"
+    ],
+    "timeline": "3 Bulan (Okt - Des 2026)",
+    "progress": 45,
+    "rolesNeeded": [
+      {
+        "role": "3D Web / Three.js Developer",
+        "count": 1,
+        "filled": 0,
+        "skills": ["Three.js", "React", "WebGL"]
+      },
+      {
+        "role": "UI/UX Designer",
+        "count": 1,
+        "filled": 1,
+        "skills": ["Figma", "Design Systems", "Prototyping"]
+      },
+      {
+        "role": "Storyteller & Riset Budaya",
+        "count": 2,
+        "filled": 1,
+        "skills": ["Copywriting", "Etnografi", "Wawancara"]
+      }
+    ],
+    "tags": ["Budaya", "3D Web", "Desa Adat", "Pariwisata Etis"],
+    "coverImage": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=800&q=80",
+    "applicantsCount": 7
+  },
+  {
+    "id": "collab-02",
+    "title": "Sistem Logistik Cerdas Rumput Laut Banda",
+    "tagline": "Platform penelusuran rantai pasok dari petani laut Maluku langsung ke industri pengolahan",
+    "category": "Pangan & Maritim",
+    "province": "Maluku",
+    "city": "Kepulauan Banda",
+    "initiator": {
+      "name": "Maria Tuasalamony",
+      "role": "Pemberdaya Nelayan Pesisir",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80"
+    },
+    "description": "Membantu 120 pembudidaya rumput laut di Kepulauan Banda mendapatkan harga adil dengan memangkas perantara spekulatif menggunakan sistem pencatatan logistik berbasis SMS & Web.",
+    "objectives": [
+      "Mengurangi penyusutan mutu rumput laut pascapanen sebesar 25%",
+      "Menghubungkan 3 koperasi nelayan dengan pembeli pabrik agar-agar di Surabaya",
+      "Transparansi harga harian komoditas berbasis dasbor digital sederhana"
+    ],
+    "timeline": "4 Bulan (Sep 2026 - Jan 2027)",
+    "progress": 60,
+    "rolesNeeded": [
+      {
+        "role": "Full-Stack Web Engineer",
+        "count": 1,
+        "filled": 0,
+        "skills": ["Node.js", "React", "PostgreSQL"]
+      },
+      {
+        "role": "Spesialis Rantai Pasok / Agribisnis",
+        "count": 1,
+        "filled": 0,
+        "skills": ["Logistik", "Manajemen Koperasi", "Audit Kualitas"]
+      }
+    ],
+    "tags": ["Maritim", "Pangan", "Supply Chain", "Koperasi"],
+    "coverImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80",
+    "applicantsCount": 11
+  },
+  {
+    "id": "collab-03",
+    "title": "Rebranding & Kemasan Ekologis Jamu Solo",
+    "tagline": "Modernisasi jenama 8 perajin jamu gendong Pasar Gede menyasar pasar generasi muda",
+    "category": "Kriya & Gaya Hidup",
+    "province": "Jawa Tengah",
+    "city": "Surakarta",
+    "initiator": {
+      "name": "Bagas Dananjaya",
+      "role": "Desainer Kemasan Ramah Lingkungan",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"
+    },
+    "description": "Mengangkat martabat minuman rempah Nusantara melalui kemasan biodegradable berbasis serat tebu, identitas tipografi batik kontemporer, dan kanal pemasaran digital.",
+    "objectives": [
+      "Merancang 4 varian kemasan siap minum ramah lingkungan",
+      "Membuat sistem pemesanan online langganan mingguan di area Soloraya",
+      "Meningkatkan margin keuntungan ibu-ibu penjual jamu sebesar 40%"
+    ],
+    "timeline": "2 Bulan (Okt - Nov 2026)",
+    "progress": 70,
+    "rolesNeeded": [
+      {
+        "role": "Packaging & Brand Designer",
+        "count": 1,
+        "filled": 1,
+        "skills": ["Packaging Design", "Illustrator", "Print Spec"]
+      },
+      {
+        "role": "Digital Content Creator / Video",
+        "count": 2,
+        "filled": 1,
+        "skills": ["Reels/TikTok", "Food Photography", "Storytelling"]
+      },
+      {
+        "role": "E-Commerce Operator",
+        "count": 1,
+        "filled": 0,
+        "skills": ["Shopify / WA Commerce", "Customer Service", "Fulfillment"]
+      }
+    ],
+    "tags": ["Jamu", "Packaging", "Eco-Friendly", "Kearifan Lokal"],
+    "coverImage": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=800&q=80",
+    "applicantsCount": 14
+  },
+  {
+    "id": "collab-04",
+    "title": "Platform Bank Sampah & Sirkular Sungai Citarum",
+    "tagline": "Integrasi penjemputan sampah plastik warga bantaran sungai dengan bengkel daur ulang kreatif",
+    "category": "Lingkungan & Sosial",
+    "province": "Jawa Barat",
+    "city": "Kabupaten Bandung",
+    "initiator": {
+      "name": "Nabila Kartika",
+      "role": "Aktivis Lingkungan & Circular Economy",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+    },
+    "description": "Menghentikan kebocoran sampah plastik ke aliran Citarum dengan memberikan insentif token sembako digital kepada 300 kepala keluarga melalui aplikasi setoran bank sampah.",
+    "objectives": [
+      "Pencegahan 5 ton sampah plastik per bulan ke badan air Citarum",
+      "Pengembangan 6 varian produk furnitur dari lelehan plastik cacah",
+      "Pelibatan 12 pemuda karang taruna sebagai koordinator zonasi"
+    ],
+    "timeline": "6 Bulan (Sep 2026 - Feb 2027)",
+    "progress": 30,
+    "rolesNeeded": [
+      {
+        "role": "Mobile App Developer (PWA / React)",
+        "count": 2,
+        "filled": 1,
+        "skills": ["React", "Tailwind", "Offline-First Storage"]
+      },
+      {
+        "role": "Industrial / Product Designer",
+        "count": 1,
+        "filled": 0,
+        "skills": ["SolidWorks", "Upcycling", "Material Testing"]
+      },
+      {
+        "role": "Community Engagement Lead",
+        "count": 1,
+        "filled": 0,
+        "skills": ["Fasilitasi Warga", "Penyuluhan", "Sosial"]
+      }
+    ],
+    "tags": ["Citarum", "Bank Sampah", "Ekonomi Sirkular", "Dampak Hijau"],
+    "coverImage": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80",
+    "applicantsCount": 9
+  },
+  {
+    "id": "collab-05",
+    "title": "Marketplace Tenun Pewarna Alam Sumba Barat",
+    "tagline": "Etalase langsung wastra tenun ikat tanpa calo dengan sertifikat keaslian digital",
+    "category": "Kriya & UMKM",
+    "province": "Nusa Tenggara Timur",
+    "city": "Waikabubak",
+    "initiator": {
+      "name": "Rambu Ana May",
+      "role": "Ketua Paguyuban Penenun Mama Sumba",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80"
+    },
+    "description": "Memberdayakan 65 mama penenun pewarna alami (akar mengkudu & daun nila) di pelosok Sumba agar karyanya dihargai secara layak oleh pasar kurasi tekstil internasional.",
+    "objectives": [
+      "Pemberian sertifikat digital asal-usul (proof of origin) untuk setiap helai kain",
+      "Koleksi foto & video cerita filosofi motif kuda, tengkorak, dan burung kakatua",
+      "Target ekspor etis perdana 50 lembar selendang ke pasar Jepang dan Prancis"
+    ],
+    "timeline": "3 Bulan (Okt - Des 2026)",
+    "progress": 55,
+    "rolesNeeded": [
+      {
+        "role": "E-Commerce Frontend Developer",
+        "count": 1,
+        "filled": 0,
+        "skills": ["Next.js", "Stripe/Midtrans", "Tailwind"]
+      },
+      {
+        "role": "Translator & International Copywriter",
+        "count": 1,
+        "filled": 0,
+        "skills": ["English/French", "Cultural Storytelling"]
+      }
+    ],
+    "tags": ["Tenun Sumba", "Pewarna Alam", "Pemberdayaan Wanita", "Ekspor"],
+    "coverImage": "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?auto=format&fit=crop&w=800&q=80",
+    "applicantsCount": 16
+  },
+  {
+    "id": "collab-06",
+    "title": "Sistem Sensor Mandiri Hutan Gambut Siak",
+    "tagline": "Sensor IoT murah pemantau kelembaban gambut untuk pencegahan kebakaran hutan dini",
+    "category": "Teknologi & Lingkungan",
+    "province": "Riau",
+    "city": "Kabupaten Siak",
+    "initiator": {
+      "name": "Fadhil Hermansyah",
+      "role": "Pegiat IoT & Mahasiswa Teknik Elektro",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80"
+    },
+    "description": "Mengembangkan sensor kelembaban tanah dan ketinggian muka air gambut berdaya surya, mengirim sinyal peringatan dini ke telepon pintar kelompok Masyarakat Peduli Api (MPA).",
+    "objectives": [
+      "Pemasangan 20 unit sensor mandiri di perimeter zona rawan terbakar",
+      "Dasbor visual pemetaan sebaran titik bahaya berbasis peta satelit terbuka",
+      "Menurunkan waktu respon pemadaman MPA dari 3 jam menjadi 30 menit"
+    ],
+    "timeline": "5 Bulan (Sep 2026 - Jan 2027)",
+    "progress": 40,
+    "rolesNeeded": [
+      {
+        "role": "Hardware & Firmware Engineer",
+        "count": 1,
+        "filled": 0,
+        "skills": ["ESP32 / LoRa", "C++", "Power Management"]
+      },
+      {
+        "role": "GIS & Web Dashboard Developer",
+        "count": 1,
+        "filled": 1,
+        "skills": ["Mapbox / Leaflet", "React", "WebSockets"]
+      },
+      {
+        "role": "Field Coordinator / Komunikasi Warga",
+        "count": 1,
+        "filled": 0,
+        "skills": ["Koordinasi Lapangan", "Tanggap Bencana"]
+      }
+    ],
+    "tags": ["IoT", "Gambut", "Kebakaran Hutan", "Sensor Siak"],
+    "coverImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80",
+    "applicantsCount": 8
+  }
+]

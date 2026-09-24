@@ -1,0 +1,162 @@
+{
+  "topTalents": [
+    {
+      "rank": 1,
+      "name": "Fajar Hidayat",
+      "city": "Garut",
+      "province": "Jawa Barat",
+      "role": "Hardware Hacker & Agronomis",
+      "xp": 940,
+      "badge": "Inovator Solusi Daerah",
+      "tier": "Platinum",
+      "projectsCompleted": 7,
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "rank": 2,
+      "name": "Arif Dananjaya",
+      "city": "Cirebon",
+      "province": "Jawa Barat",
+      "role": "Fullstack Developer",
+      "xp": 820,
+      "badge": "Penggerak Ekonomi UMKM",
+      "tier": "Gold",
+      "projectsCompleted": 6,
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "rank": 3,
+      "name": "Sekar Ayu",
+      "city": "Banda Neira",
+      "province": "Maluku",
+      "role": "Dokumentarian Bahari",
+      "xp": 760,
+      "badge": "Kreator Narasi Nusantara",
+      "tier": "Gold",
+      "projectsCompleted": 5,
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "rank": 4,
+      "name": "Gede Wahyu Saputra",
+      "city": "Bangli",
+      "province": "Bali",
+      "role": "Embedded Systems Engineer",
+      "xp": 680,
+      "badge": "Inovator Solusi Daerah",
+      "tier": "Silver",
+      "projectsCompleted": 4,
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "rank": 5,
+      "name": "Tirta Pratama",
+      "city": "Denpasar",
+      "province": "Bali",
+      "role": "Accessibility Specialist",
+      "xp": 620,
+      "badge": "Pemimpin Gerakan Sosial",
+      "tier": "Silver",
+      "projectsCompleted": 4,
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "rank": 6,
+      "name": "Nadia Larasati",
+      "city": "Yogyakarta",
+      "province": "D.I. Yogyakarta",
+      "role": "Brand Strategist",
+      "xp": 590,
+      "badge": "Penggerak Ekonomi UMKM",
+      "tier": "Silver",
+      "projectsCompleted": 3,
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "rank": 7,
+      "name": "Rizky Ramadhan",
+      "city": "Surakarta",
+      "province": "Jawa Tengah",
+      "role": "Typeface Designer",
+      "xp": 540,
+      "badge": "Kreator Narasi Nusantara",
+      "tier": "Silver",
+      "projectsCompleted": 3,
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=200&q=80"
+    }
+  ],
+  "topProvinces": [
+    {
+      "rank": 1,
+      "provinceName": "Jawa Barat",
+      "island": "Jawa",
+      "activeTalents": 980,
+      "umkmAssisted": 34,
+      "totalProjects": 82,
+      "score": 4820
+    },
+    {
+      "rank": 2,
+      "provinceName": "Bali",
+      "island": "Bali & Nusa Tenggara",
+      "activeTalents": 640,
+      "umkmAssisted": 28,
+      "totalProjects": 65,
+      "score": 3950
+    },
+    {
+      "rank": 3,
+      "provinceName": "D.I. Yogyakarta",
+      "island": "Jawa",
+      "activeTalents": 590,
+      "umkmAssisted": 25,
+      "totalProjects": 58,
+      "score": 3610
+    },
+    {
+      "rank": 4,
+      "provinceName": "Nusa Tenggara Timur",
+      "island": "Bali & Nusa Tenggara",
+      "activeTalents": 480,
+      "umkmAssisted": 21,
+      "totalProjects": 46,
+      "score": 3120
+    },
+    {
+      "rank": 5,
+      "provinceName": "Jawa Tengah",
+      "island": "Jawa",
+      "activeTalents": 450,
+      "umkmAssisted": 19,
+      "totalProjects": 42,
+      "score": 2890
+    },
+    {
+      "rank": 6,
+      "provinceName": "Sulawesi Selatan",
+      "island": "Sulawesi",
+      "activeTalents": 410,
+      "umkmAssisted": 17,
+      "totalProjects": 38,
+      "score": 2650
+    },
+    {
+      "rank": 7,
+      "provinceName": "Sumatera Utara",
+      "island": "Sumatera",
+      "activeTalents": 390,
+      "umkmAssisted": 15,
+      "totalProjects": 35,
+      "score": 2480
+    },
+    {
+      "rank": 8,
+      "provinceName": "Maluku",
+      "island": "Maluku & Papua",
+      "activeTalents": 310,
+      "umkmAssisted": 12,
+      "totalProjects": 29,
+      "score": 2150
+    }
+  ]
+}

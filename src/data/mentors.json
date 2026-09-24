@@ -1,0 +1,146 @@
+[
+  {
+    "id": "mentor-reza",
+    "name": "Reza Wiratama",
+    "role": "CEO & AI Strategy Consultant",
+    "organization": "TechVantage Indonesia",
+    "category": "AI & Transformasi Digital",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "bio": "Praktisi kecerdasan buatan dan penasihat strategis transformasi digital korporasi. Pembicara utama Masterclass AI for Business Mahreen Indonesia.",
+    "topics": [
+      "Implementasi AI untuk Efisiensi Bisnis & ROI Terukur",
+      "Roadmap Transformasi Digital Perusahaan & Startup",
+      "Peluang Karir Rekayasa AI & Data di Indonesia"
+    ],
+    "availableDays": ["Senin Sore", "Kamis Malam"],
+    "rating": 5.0,
+    "reviewCount": 64,
+    "xpReward": 35
+  },
+  {
+    "id": "mentor-maya",
+    "name": "Maya Sari",
+    "role": "VP of Brand & Experience",
+    "organization": "Lumina Creative Studio",
+    "category": "Desain & UI/UX Experience",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+    "bio": "Desainer produk digital berpengalaman 12+ tahun merancang sistem antarmuka luxury brand dan aplikasi skala jutaan pengguna. Mentor UI/UX Mastery Mahreen.",
+    "topics": [
+      "Crafting Luxury Digital Experiences & Micro-Interactions",
+      "Enterprise Design Systems & Usability Testing",
+      "Review Portofolio UI/UX Siap Kerja Internasional"
+    ],
+    "availableDays": ["Selasa Malam", "Jumat Sore"],
+    "rating": 4.9,
+    "reviewCount": 58,
+    "xpReward": 35
+  },
+  {
+    "id": "mentor-bagus",
+    "name": "Bagus Pratama",
+    "role": "Co-Founder & COO",
+    "organization": "ScaleUp Hub Indonesia",
+    "category": "Growth Marketing & Bisnis",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+    "bio": "Growth strategist yang telah membantu 40+ brand dan startup mencapai 10x scale up melalui performance marketing dan content flywheel berkelanjutan.",
+    "topics": [
+      "Digital Marketing Strategy & Conversion Rate Optimization (CRO)",
+      "Omni-Channel Funnel & Retention Marketing",
+      "Unit Ekonomi & Scalability Bisnis Digital"
+    ],
+    "availableDays": ["Rabu Malam", "Sabtu Pagi"],
+    "rating": 4.9,
+    "reviewCount": 52,
+    "xpReward": 30
+  },
+  {
+    "id": "mentor-anindya",
+    "name": "Dr. Anindya Putri",
+    "role": "Lead AI Researcher & Data Scientist",
+    "organization": "DataNusantara Lab",
+    "category": "Teknologi & Sains Data",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80",
+    "bio": "Peneliti machine learning terapan dan pembicara seminar The Global Impact of Digitalization in Indonesia. Berfokus pada data untuk dampak industri.",
+    "topics": [
+      "Machine Learning Terapan untuk Pemecahan Masalah Nyata",
+      "Etika AI dan Tata Kelola Data Nasional",
+      "Riset Terapan Data Science untuk Kebijakan Publik"
+    ],
+    "availableDays": ["Kamis Sore", "Minggu Siang"],
+    "rating": 5.0,
+    "reviewCount": 47,
+    "xpReward": 35
+  },
+  {
+    "id": "mentor-1",
+    "name": "Arga Dewantoro",
+    "role": "Principal Product Designer",
+    "organization": "GovTech Nusantara Lab",
+    "category": "Desain & Produk Digital",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+    "bio": "10+ tahun merancang antarmuka layanan publik ramah warga. Mentor bagi puluhan desainer muda peraih penghargaan internasional.",
+    "topics": [
+      "Review Portofolio UX & Desain Sistem",
+      "Riset Pengguna Berbasis Inklusivitas Daerah",
+      "Karier Desain Produk di Layanan Publik"
+    ],
+    "availableDays": ["Senin Malam", "Kamis Malam"],
+    "rating": 4.9,
+    "reviewCount": 42,
+    "xpReward": 25
+  },
+  {
+    "id": "mentor-2",
+    "name": "Dr. Ratih Anggraini",
+    "role": "Peneliti Senior Rekayasa Sensor & Agroteknologi",
+    "organization": "Institut Riset Pangan Terapan",
+    "category": "Teknologi Terapan",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=200&q=80",
+    "bio": "Spesialis sensor murah untuk pertanian rakyat. Berpengalaman membimbing prototipe hardware IoT hingga tahap hilirisasi.",
+    "topics": [
+      "Arsitektur IoT Murah Tanpa Internet Cepat",
+      "Sistem Deteksi Hama Murah untuk Tanaman Pangan",
+      "Penyusunan Proposal Hibah Riset BRIN"
+    ],
+    "availableDays": ["Selasa Sore", "Sabtu Pagi"],
+    "rating": 5.0,
+    "reviewCount": 38,
+    "xpReward": 30
+  },
+  {
+    "id": "mentor-3",
+    "name": "Bambang Wibowo, S.E.",
+    "role": "Managing Director",
+    "organization": "Konsorsium UMKM Naik Kelas",
+    "category": "Bisnis & Ekspor UMKM",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=80",
+    "bio": "Telah mendampingi 300+ produk olahan pangan dan kriya Nusantara menembus etalase retail Jepang, Timur Tengah, dan Eropa.",
+    "topics": [
+      "Strategi Penentuan Harga Ekspor & Rantai Pasok",
+      "Standardisasi Kemasan & Sertifikasi Internasional",
+      "Pitching Pendanaan Koperasi & Angel Investor"
+    ],
+    "availableDays": ["Rabu Malam", "Jumat Sore"],
+    "rating": 4.8,
+    "reviewCount": 56,
+    "xpReward": 25
+  },
+  {
+    "id": "mentor-4",
+    "name": "Citra Lestari",
+    "role": "Direktur Eksekutif",
+    "organization": "Yayasan Lentera Bahari Nusantara",
+    "category": "Gerakan Sosial & Komunitas",
+    "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=200&q=80",
+    "bio": "Aktivis pendidikan pesisir dan pulau 3T. Berpengalaman mengorganisasi 2.000+ relawan pemuda lintas 18 provinsi kepulauan.",
+    "topics": [
+      "Manajemen Relawan & Pencegahan Burnout",
+      "Penggalangan Dana Publik yang Etis & Transparan",
+      "Kemitraan Strategis dengan Tokoh Adat Daerah"
+    ],
+    "availableDays": ["Kamis Sore", "Minggu Pagi"],
+    "rating": 4.9,
+    "reviewCount": 49,
+    "xpReward": 20
+  }
+]

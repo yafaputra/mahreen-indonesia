@@ -1,0 +1,72 @@
+[
+  {
+    "id": "badge-langkah-perdana",
+    "name": "Langkah Perdana",
+    "tier": "Bronze",
+    "category": "Onboarding",
+    "description": "Menyelesaikan Quiz Onboarding dan menemukan profil karakter kontribusimu.",
+    "icon": "Compass",
+    "xpReward": 50,
+    "requirement": "Selesaikan Onboarding Quiz",
+    "criteria": {
+      "type": "quiz_completed",
+      "value": 1
+    }
+  },
+  {
+    "id": "badge-eksplorator-program",
+    "name": "Eksplorator Nusantara",
+    "tier": "Silver",
+    "category": "Eksplorasi",
+    "description": "Menandai minimal 3 program Mahreen yang ingin kamu ikuti.",
+    "icon": "BookmarkCheck",
+    "xpReward": 75,
+    "requirement": "Bookmark minimal 3 program",
+    "criteria": {
+      "type": "bookmarks_count",
+      "value": 3
+    }
+  },
+  {
+    "id": "badge-apresiator-karya",
+    "name": "Apresiator Karya Bangsa",
+    "tier": "Silver",
+    "category": "Komunitas",
+    "description": "Memberikan apresiasi dan tanggapan aktif pada karya generasi muda di Karya Wall.",
+    "icon": "HeartHandshake",
+    "xpReward": 75,
+    "requirement": "Berikan minimal 5 reaksi atau komentar di Karya Wall",
+    "criteria": {
+      "type": "interactions_count",
+      "value": 5
+    }
+  },
+  {
+    "id": "badge-kartografer-ekosistem",
+    "name": "Arsitek Sinergi",
+    "tier": "Gold",
+    "category": "Ekosistem",
+    "description": "Menjelajahi interaksi 6 pilar di Mahreen Map dan memahami keterhubungannya.",
+    "icon": "Network",
+    "xpReward": 100,
+    "requirement": "Buka detail minimal 4 pilar di Mahreen Map",
+    "criteria": {
+      "type": "pillars_explored",
+      "value": 4
+    }
+  },
+  {
+    "id": "badge-mahreen-champion",
+    "name": "Mahreen Champion",
+    "tier": "Platinum",
+    "category": "Penggerak Utama",
+    "description": "Mencapai akumulasi 350+ XP dan menjadi teladan pemuda penggerak Indonesia.",
+    "icon": "Crown",
+    "xpReward": 150,
+    "requirement": "Raih total 350 XP di ekosistem Mahreen OS",
+    "criteria": {
+      "type": "total_xp",
+      "value": 350
+    }
+  }
+]

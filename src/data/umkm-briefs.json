@@ -1,0 +1,134 @@
+[
+  {
+    "id": "brief-1",
+    "umkmName": "Tenun Ikat Pusaka Ende",
+    "owner": "Mama Elisabeth Sare",
+    "location": "Ende, Nusa Tenggara Timur",
+    "category": "Wastra & Kriya",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+    "title": "Digitalisasi Arsip Motif Tradisional & Katalog E-Commerce Internasional",
+    "challenge": "Kelompok perajin tenun kami memiliki 30+ motif leluhur yang terancam punah dan belum memiliki katalog digital terstandarisasi. Kami membutuhkan talenta desainer dan web untuk membuat katalog visual beresolusi tinggi, narasi makna filosofis, dan integrasi toko online multi-bahasa.",
+    "deliverables": [
+      "Katalog digital interaktif 30 motif tenun",
+      "Foto produk & penulisan narasi filosofis",
+      "Penyusunan panduan harga adil untuk pasar ekspor"
+    ],
+    "honorGotongRoyong": "Rp 4.500.000 + Suplai Kain Tenun Asli",
+    "duration": "4 Minggu",
+    "deadline": "2026-10-20",
+    "teamsNeeded": 2,
+    "applicantsCount": 5,
+    "xpReward": 60,
+    "tags": ["Tenun NTT", "Branding Digital", "Ekspor Kreatif"]
+  },
+  {
+    "id": "brief-2",
+    "umkmName": "Koperasi Kopi Gayo Berkah Alam",
+    "owner": "Ahmad Fauzi & 45 Petani",
+    "location": "Takengon, Aceh Tengah",
+    "category": "Pangan & Agrikultur",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+    "title": "Aplikasi Kasir Sederhana Offline & Sistem Pantau Stok Gudang Kopi",
+    "challenge": "Sering terjadi selisih stok biji kopi hijau di gudang karena pembukuan manual di buku tulis. Diperlukan aplikasi kasir & stok sederhana yang bisa berjalan tanpa internet di tablet Android murah, serta dapat mencetak nota thermal.",
+    "deliverables": [
+      "Aplikasi Android offline-first manajemen inventori",
+      "Modul pencatatan timbangan panen per petani",
+      "Pelatihan penggunaan 1 hari untuk staf gudang"
+    ],
+    "honorGotongRoyong": "Rp 6.000.000 + 10 Kg Kopi Specialty Gayo",
+    "duration": "6 Minggu",
+    "deadline": "2026-10-25",
+    "teamsNeeded": 1,
+    "applicantsCount": 8,
+    "xpReward": 75,
+    "tags": ["AgriTech", "Offline Android", "Kopi Nusantara"]
+  },
+  {
+    "id": "brief-3",
+    "umkmName": "Perak Candramawa Kotagede",
+    "owner": "R. Mas Danang Sutrisno",
+    "location": "Yogyakarta, D.I. Yogyakarta",
+    "category": "Kriya Tradisional",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=80",
+    "title": "Virtual Showroom 3D & Kampanye Perhiasan Perak Ramah Generasi Muda",
+    "challenge": "Generasi muda saat ini menganggap kerajinan perak filigri Kotagede kuno dan mahal. Kami ingin meremajakan citra brand dengan showroom 3D web dan desain kemasan ramah lingkungan yang memikat pasar anak muda perkotaan.",
+    "deliverables": [
+      "Galeri virtual 3D interaktif koleksi perhiasan",
+      "Konsep kemasan unboxing berbahan daur ulang",
+      "Konten video kampanye media sosial 5 episode"
+    ],
+    "honorGotongRoyong": "Rp 5.500.000 + Souvenir Perak Kustom",
+    "duration": "5 Minggu",
+    "deadline": "2026-11-01",
+    "teamsNeeded": 2,
+    "applicantsCount": 6,
+    "xpReward": 65,
+    "tags": ["3D Web", "Filigri Perak", "Desain Kemasan"]
+  },
+  {
+    "id": "brief-4",
+    "umkmName": "Abon Cakalang Asap Roa Minahasa",
+    "owner": "Ibu Grace Manopo",
+    "location": "Manado, Sulawesi Utara",
+    "category": "Kuliner Daerah",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+    "title": "Redesain Kemasan Pouch Kedap Udara & Optimasi Penjualan Omni-Channel",
+    "challenge": "Produk olahan ikan cakalang asap kami punya cita rasa otentik yang digemari, tetapi kemasan plastik bening cepat mlempem dan tidak lolos uji kurasi minimarket modern. Butuh desain pouch alumunium foil zipper yang memenuhi standar BPOM & halal.",
+    "deliverables": [
+      "Desain pouch 250gr dengan ilustrasi kekayaan laut Minahasa",
+      "Pengurusan kelengkapan visual label nutrisi & barcode",
+      "Setup etalase Tokopedia & Shopee Mall resmi"
+    ],
+    "honorGotongRoyong": "Rp 4.000.000 + Paket Kuliner Khas Manado",
+    "duration": "3 Minggu",
+    "deadline": "2026-10-18",
+    "teamsNeeded": 1,
+    "applicantsCount": 9,
+    "xpReward": 55,
+    "tags": ["Kuliner Laut", "Desain Kemasan BPOM", "Marketplace"]
+  },
+  {
+    "id": "brief-5",
+    "umkmName": "Jamu Herbal Ratu Ayu Solo",
+    "owner": "Ny. Siti Wardhani",
+    "location": "Surakarta, Jawa Tengah",
+    "category": "Herbal & Kesehatan",
+    "avatar": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=200&q=80",
+    "title": "Strategi Re-Branding 'Jamu Ready-to-Drink' untuk Kafe & Perkantoran",
+    "challenge": "Resep racikan temulawak dan kunyit asam kami berumur 3 generasi. Kami butuh bantuan talenta kreatif untuk mengubah format sajian menjadi minuman dingin ready-to-drink botol kaca yang estetik untuk suplai kafe modern.",
+    "deliverables": [
+      "Desain label botol kaca 350ml modern minimalis",
+      "Deck penawaran kemitraan B2B ke pemilik kafe",
+      "Strategi pemasaran digital bertema wellness gaya hidup sehat"
+    ],
+    "honorGotongRoyong": "Rp 5.000.000 + Suplai Jamu 3 Bulan",
+    "duration": "4 Minggu",
+    "deadline": "2026-11-05",
+    "teamsNeeded": 2,
+    "applicantsCount": 4,
+    "xpReward": 60,
+    "tags": ["Jamu Tradisional", "Branding B2B", "Minuman Sehat"]
+  },
+  {
+    "id": "brief-6",
+    "umkmName": "Anyaman Bambu Lestari Gianyar",
+    "owner": "I Wayan Suweta",
+    "location": "Gianyar, Bali",
+    "category": "Kriya & Furnitur",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80",
+    "title": "Katalog Interaktif Furnitur Bambu Modular & Standar Sertifikasi Hijau",
+    "challenge": "Perajin kami memproduksi kap lampu dan kursi bambu modular berdaya tahan 10 tahun. Kami butuh bantuan pemuda untuk membuat lembar data teknis arsitektur (CAD/BIM render) dan sertifikasi ramah lingkungan untuk tender hotel & villa.",
+    "deliverables": [
+      "Katalog digital interaktif format PDF & Web",
+      "Model 3D render kap lampu & furnitur modular",
+      "Dokumentasi rantai pasok bambu berkelanjutan"
+    ],
+    "honorGotongRoyong": "Rp 7.000.000 + Set Kap Lampu Bambu Kustom",
+    "duration": "6 Minggu",
+    "deadline": "2026-11-12",
+    "teamsNeeded": 1,
+    "applicantsCount": 7,
+    "xpReward": 80,
+    "tags": ["Arsitektur Bambu", "Furnitur Hijau", "Ekspor Bali"]
+  }
+]

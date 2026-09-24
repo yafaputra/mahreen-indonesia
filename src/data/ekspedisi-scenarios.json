@@ -1,0 +1,342 @@
+{
+  "personas": [
+    {
+      "id": "persona-tech",
+      "name": "Sandi Rekayasa",
+      "role": "Fullstack Web & AI Engineer",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "tagline": "Membangun arsitektur platform web modern, aman, dan integrasi kecerdasan buatan terapan.",
+      "specialty": "Website Development, Next.js, AI Integration, Cloud Architecture, Scalable API",
+      "baseStats": {
+        "teknologi": 25,
+        "sosial": 10,
+        "ekonomi": 15,
+        "budaya": 5
+      }
+    },
+    {
+      "id": "persona-craft",
+      "name": "Puspa Kriya",
+      "role": "UI/UX & Creative Director",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80",
+      "tagline": "Merancang visual identity mewah dan antarmuka pengalaman digital kelas dunia.",
+      "specialty": "Luxury UI/UX, Design Systems, Branding & Identity, Mahreen Studio Apparel, Micro-Interactions",
+      "baseStats": {
+        "teknologi": 5,
+        "sosial": 15,
+        "ekonomi": 10,
+        "budaya": 25
+      }
+    },
+    {
+      "id": "persona-business",
+      "name": "Surya Niaga",
+      "role": "Business Development & Growth Lead",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "tagline": "Mengakselerasi skala bisnis mitra, kemitraan strategis kampus & korporasi, serta performance marketing.",
+      "specialty": "B2B Partnership, Performance Marketing, Tanya Mahreen Agency Services, UMKM Scale-up",
+      "baseStats": {
+        "teknologi": 10,
+        "sosial": 10,
+        "ekonomi": 25,
+        "budaya": 10
+      }
+    },
+    {
+      "id": "persona-social",
+      "name": "Bumi Rahayu",
+      "role": "Social Impact & Ecosystem Mobilizer",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
+      "tagline": "Menggerakkan program Peduli Mahreen, pendidikan digital inklusif, dan sinergi 34 provinsi.",
+      "specialty": "Peduli Mahreen, Edukasi Kreatif Anak, CSR Sustainability, Pemberdayaan Komunitas 34 Provinsi",
+      "baseStats": {
+        "teknologi": 5,
+        "sosial": 25,
+        "ekonomi": 10,
+        "budaya": 15
+      }
+    }
+  ],
+  "missions": [
+    {
+      "id": "mis-1",
+      "region": "DKI Jakarta & Jawa Barat",
+      "location": "Jakarta Hub & Cimahi HQ",
+      "title": "Misi 1: Transformasi Digital & Luxury Web Experience",
+      "story": "Sebuah jaringan ritel dan brand kreatif lokal menghadapi kendala transaksi digital karena website lama yang lambat, antarmuka kaku, dan bounce rate pengunjung mencapai 70%. Klien membutuhkan platform digital baru yang mewah, responsif, dan mampu mengonversi pengunjung menjadi pelanggan setia.",
+      "challenge": "Bagaimana langkah strategismu merekayasa antarmuka digital berkelas dunia sekaligus memperkuat branding mereka?",
+      "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=800&q=80",
+      "options": [
+        {
+          "id": "opt-1a",
+          "label": "Implementasi Layanan Tanya Mahreen (Web & UI/UX)",
+          "program": "Tanya Mahreen",
+          "link": "/umkm-connect",
+          "actionText": "Eksekusi Redesain Fullstack Next.js & Luxury Design System",
+          "explanation": "Melalui Tanya Mahreen, tim merancang arsitektur web modern performa tinggi dengan micro-interactions premium, mendongkrak konversi penjualan hingga 220%.",
+          "impactDelta": {
+            "teknologi": 30,
+            "ekonomi": 25,
+            "budaya": 20,
+            "sosial": 10
+          },
+          "feedback": "Hasil luar biasa! Kecepatan web meningkat 4x lipat dan brand klien dinobatkan sebagai Top E-Commerce Showcase bulan ini."
+        },
+        {
+          "id": "opt-1b",
+          "label": "Ikuti Workshop UI/UX Mastery di Newsroom",
+          "program": "Mahreen Newsroom & Events",
+          "link": "/newsroom",
+          "actionText": "Pelajari Framework Luxury Digital Experience bersama Maya Sari",
+          "explanation": "Kamu mengajak tim menguasai prinsip desain produk mewah melalui workshop 15 Desember 2026, lalu menerapkannya langsung pada prototipe klien.",
+          "impactDelta": {
+            "budaya": 30,
+            "teknologi": 25,
+            "ekonomi": 20,
+            "sosial": 10
+          },
+          "feedback": "Prototipe desain mendapatkan apresiasi tinggi dari para investor dan langsung disetujui dalam sekali presentasi!"
+        },
+        {
+          "id": "opt-1c",
+          "label": "Konsultasi 1-on-1 di Mentorship Hub",
+          "program": "Mentorship Hub",
+          "link": "/mentorship",
+          "actionText": "Review Arsitektur Sistem dengan Reza Wiratama & Mentor Senior",
+          "explanation": "Kamu berkonsultasi langsung dengan konsultan teknologi untuk memastikan skalabilitas cloud dan keamanan data pengguna.",
+          "impactDelta": {
+            "teknologi": 35,
+            "ekonomi": 20,
+            "sosial": 15,
+            "budaya": 10
+          },
+          "feedback": "Mentor memberikan cetak biru arsitektur cloud enterprise yang menghemat biaya server klien hingga 40%."
+        }
+      ]
+    },
+    {
+      "id": "mis-2",
+      "region": "Jawa Timur & D.I. Yogyakarta",
+      "location": "Surabaya & Yogyakarta Tech Hub",
+      "title": "Misi 2: AI for Business & Growth Automation",
+      "story": "Sebuah startup mitra dan 40 unit bisnis kewalahan melayani ribuan pesan masuk dan menganalisis tren produk secara manual. Mereka membutuhkan automasi kecerdasan buatan (AI) yang terintegrasi serta funnel digital marketing yang terukur untuk meningkatkan omzet tanpa membakar anggaran.",
+      "challenge": "Solusi cerdas apa yang kamu rancang agar operasional mereka efisien dan penjualan bertumbuh eksponensial?",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "options": [
+        {
+          "id": "opt-2a",
+          "label": "Terapkan Masterclass AI for Business",
+          "program": "Mahreen Learning",
+          "link": "/newsroom",
+          "actionText": "Deploy Model AI & Predictive Analytics Operasional",
+          "explanation": "Mengikuti panduan Masterclass 31 Oktober 2026, kamu membangun sistem AI customer-service otomatis dan analitik tren belanja berbasis LLM.",
+          "impactDelta": {
+            "teknologi": 35,
+            "ekonomi": 30,
+            "sosial": 15,
+            "budaya": 10
+          },
+          "feedback": "Respon layanan pelanggan menjadi instan (< 10 detik) dan closing rate penjualan meningkat sebesar 65%!"
+        },
+        {
+          "id": "opt-2b",
+          "label": "Buka Tim Proyek di Bursa Gotong Royong",
+          "program": "Bursa Gotong Royong",
+          "link": "/kolaborasi",
+          "actionText": "Bentuk Skuad AI Engineer & Growth Marketer Kampus",
+          "explanation": "Melalui Bursa Gotong Royong Mahreen, kamu mengumpulkan 3 mahasiswa IT dan 2 pemasar muda untuk membedah omni-channel funnel.",
+          "impactDelta": {
+            "sosial": 35,
+            "teknologi": 25,
+            "ekonomi": 20,
+            "budaya": 10
+          },
+          "feedback": "Kolaborasi lintas kampus berhasil meluncurkan kampanye viral yang menjangkau 500.000 audiens dalam tempo 7 hari!"
+        },
+        {
+          "id": "opt-2c",
+          "label": "Bedah Strategi Marketing bersama Bagus Pratama",
+          "program": "Mentorship Hub",
+          "link": "/mentorship",
+          "actionText": "Sesi Private Bimbingan Conversion Rate Optimization (CRO)",
+          "explanation": "Kamu membedah landing page dan alur retensi pelanggan bersama co-founder ScaleUp Hub untuk memangkas customer acquisition cost (CAC).",
+          "impactDelta": {
+            "ekonomi": 35,
+            "teknologi": 20,
+            "budaya": 15,
+            "sosial": 15
+          },
+          "feedback": "ROAS (Return on Ad Spend) iklan meningkat tajam dari 1.8x menjadi 4.5x. Klien mencapai target profit kuartal lebih cepat!"
+        }
+      ]
+    },
+    {
+      "id": "mis-3",
+      "region": "Jawa Tengah & Bali",
+      "location": "Solo & Denpasar",
+      "title": "Misi 3: Tanya Mahreen - Scale-Up & Rebranding UMKM Binaan",
+      "story": "Ratusan pengrajin wastra tenun dan kriya lokal di daerah memiliki kualitas pengerjaan tangan istimewa warisan leluhur. Namun mereka terhimpit tengkulak karena belum memiliki identitas visual modern, foto produk profesional, dan etalase digital yang menarik pembeli retail premium.",
+      "challenge": "Bagaimana caramu membantu UMKM binaan naik kelas ke kancah nasional dan ekspor melalui keahlian kreatif?",
+      "image": "https://images.unsplash.com/photo-1607344645866-009c320c5ab8?auto=format&fit=crop&w=800&q=80",
+      "options": [
+        {
+          "id": "opt-3a",
+          "label": "Inkubasi Layanan Tanya Mahreen & Re-branding",
+          "program": "Tanya Mahreen",
+          "link": "/umkm-connect",
+          "actionText": "Kurasi Identitas Visual, Kemasan Ramah Lingkungan & Website",
+          "explanation": "Melalui Tanya Mahreen, talenta muda mendesain logo baru, kemasan ramah lingkungan, serta katalog interaktif yang menaikkan nilai jual produk hingga 3x lipat.",
+          "impactDelta": {
+            "ekonomi": 30,
+            "budaya": 30,
+            "sosial": 20,
+            "teknologi": 15
+          },
+          "feedback": "30 UMKM binaan berhasil masuk ke toko ritel bergengsi di Jakarta dan Bali dengan kontrak pasokan berkelanjutan!"
+        },
+        {
+          "id": "opt-3b",
+          "label": "Kurasi Etalase Digital di Karya Wall",
+          "program": "Karya Wall",
+          "link": "/karya",
+          "actionText": "Publikasikan Kisah Otentik Pengrajin ke Galeri Nasional",
+          "explanation": "Kamu mendokumentasikan filosofi wastra daerah dan memajangnya di Karya Wall Mahreen untuk menarik kurator internasional.",
+          "impactDelta": {
+            "budaya": 35,
+            "sosial": 25,
+            "ekonomi": 20,
+            "teknologi": 15
+          },
+          "feedback": "Portofolio karya disaksikan puluhan ribu pengunjung dan memicu pesanan ekspor dari pembeli busana etis mancanegara!"
+        },
+        {
+          "id": "opt-3c",
+          "label": "Kolaborasi Lini Busana Mahreen Studio",
+          "program": "Mahreen Studio",
+          "link": "/karya",
+          "actionText": "Kembangkan Koleksi Apparel Kontemporer Berbasis Wastra",
+          "explanation": "Mahreen Studio memadukan kain tenun perajin ke dalam lini streetwear modern yang digandrungi generasi Z perkotaan.",
+          "impactDelta": {
+            "budaya": 30,
+            "ekonomi": 30,
+            "teknologi": 15,
+            "sosial": 20
+          },
+          "feedback": "Drop koleksi pertama ludes terjual dalam 48 jam, memberikan margin keuntungan langsung bagi perajin daerah binaan!"
+        }
+      ]
+    },
+    {
+      "id": "mis-4",
+      "region": "Sumatera, Kalimantan & Sulawesi",
+      "location": "50+ Perguruan Tinggi Mitra se-Indonesia",
+      "title": "Misi 4: Mahreen Learning & Talenta Muda 34 Provinsi",
+      "story": "Banyak mahasiswa cerdas di berbagai kampus daerah memiliki potensi luar biasa, namun kekurangan akses ke kurikulum industri mutakhir dan pengalaman magang proyek profesional. Mereka membutuhkan jembatan untuk menjadi praktisi digital siap kerja.",
+      "challenge": "Program akselerasi apa yang kamu gulirkan agar talenta muda di 34 provinsi siap bersaing di panggung nasional?",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
+      "options": [
+        {
+          "id": "opt-4a",
+          "label": "Akselerasi Mahreen Indonesia Internship Batch 2",
+          "program": "Mahreen Internship",
+          "link": "/programs",
+          "actionText": "Buka Pendaftaran Project-Based Internship 5 Divisi",
+          "explanation": "Kamu membuka pendaftaran magang 4 bulan (Web Dev, Graphic Design, Social Media, Videography, BD) dengan mentor industri 1-on-1.",
+          "impactDelta": {
+            "sosial": 30,
+            "teknologi": 30,
+            "ekonomi": 25,
+            "budaya": 15
+          },
+          "feedback": "60 peserta dari 28 universitas mitra menyelesaikan proyek riil klien dan 90% langsung direkrut sebelum wisuda!"
+        },
+        {
+          "id": "opt-4b",
+          "label": "Gelar Seminar Nasional di Mahreen Newsroom",
+          "program": "Mahreen Newsroom",
+          "link": "/newsroom",
+          "actionText": "Siarkan 'The Global Impact of Digitalization in Indonesia'",
+          "explanation": "Kamu menyelenggarakan seminar gratis bersertifikat yang dihadiri ribuan mahasiswa se-Indonesia untuk memperluas wawasan digital.",
+          "impactDelta": {
+            "teknologi": 25,
+            "sosial": 35,
+            "budaya": 20,
+            "ekonomi": 15
+          },
+          "feedback": "Sesi diikuti oleh 1.200 peserta daring dari Aceh hingga Papua dengan tingkat kepuasan materi mencapai 98%!"
+        },
+        {
+          "id": "opt-4c",
+          "label": "Terbitkan Paspor Digital & Sertifikasi Terverifikasi",
+          "program": "Paspor Digital",
+          "link": "/paspor",
+          "actionText": "Akreditasi Portofolio & Lencana Kompetensi Resmi Mahreen",
+          "explanation": "Peserta yang menyelesaikan kurikulum menerima sertifikat digital ber-QR code yang diakui oleh puluhan mitra kampus dan industri.",
+          "impactDelta": {
+            "teknologi": 30,
+            "sosial": 30,
+            "ekonomi": 20,
+            "budaya": 15
+          },
+          "feedback": "Paspor Digital Mahreen menjadi bukti kompetensi unggulan yang mempermudah lulusan meraih peluang karier impian!"
+        }
+      ]
+    },
+    {
+      "id": "mis-5",
+      "region": "Nusa Tenggara & Maluku",
+      "location": "Pesisir NTT & Ambon, Maluku",
+      "title": "Misi 5: Peduli Mahreen - Ekosistem Edukasi & Tanggung Jawab Sosial",
+      "story": "Di sekolah-sekolah pesisir dan panti asuhan mitra binaan Peduli Mahreen, anak-anak memiliki mimpi besar namun terbatas sarana komputer dan kelas bimbingan kreatif. Sementara itu, perusahaan mitra CSR mencari wadah penyaluran dana berkelanjutan yang tepat sasaran.",
+      "challenge": "Bagaimana caramu mengorkestrasi program kemitraan sosial (Mahreen CSR & Peduli Mahreen) agar berdampak jangka panjang?",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80",
+      "options": [
+        {
+          "id": "opt-5a",
+          "label": "Inisiasi Program 'Peduli Mahreen: Kelas Digital Pelosok'",
+          "program": "Peduli Mahreen",
+          "link": "/kolaborasi",
+          "actionText": "Kirim Relawan Edukasi & Bantuan Perangkat Belajar Kreatif",
+          "explanation": "Pilar Peduli Mahreen menyalurkan laptop, modul desain dasar, dan menggelar lokakarya kreatif menyenangkan bagi anak-anak.",
+          "impactDelta": {
+            "sosial": 40,
+            "budaya": 25,
+            "teknologi": 20,
+            "ekonomi": 15
+          },
+          "feedback": "200 anak pesisir kini mahir mengoperasikan software desain grafis dan percaya diri menyongsong masa depan digital!"
+        },
+        {
+          "id": "opt-5b",
+          "label": "Buka Kemitraan CSR Korporasi Berstandar ESG",
+          "program": "Mahreen CSR & Partnership",
+          "link": "/partnership",
+          "actionText": "Sinergikan Pendanaan CSR Bank & BUMN untuk Sarana Inklusi",
+          "explanation": "Melalui portal Kemitraan Mahreen, kamu menyusun proposal program pendidikan berkelanjutan yang didanai mitra institusi perbankan.",
+          "impactDelta": {
+            "ekonomi": 30,
+            "sosial": 35,
+            "budaya": 20,
+            "teknologi": 15
+          },
+          "feedback": "Mitra Bank mengucurkan dana hibah CSR tahunan untuk membangun 3 laboratorium kreativitas digital permanen!"
+        },
+        {
+          "id": "opt-5c",
+          "label": "Tampilkan Pameran Karya Anak Binaan di Festival Mahreen",
+          "program": "Festival Karya Nusantara",
+          "link": "/festival",
+          "actionText": "Pameran Karya Seni & Coding Cilik di Paviliun Festival",
+          "explanation": "Hasil karya lukisan dan animasi anak-anak binaan Peduli Mahreen dipamerkan di panggung Festival Nasional, menggalang beasiswa belajar.",
+          "impactDelta": {
+            "budaya": 35,
+            "sosial": 30,
+            "ekonomi": 20,
+            "teknologi": 15
+          },
+          "feedback": "Pameran berhasil mengumpulkan donasi beasiswa pendidikan penuh bagi 50 anak berprestasi hingga lulus SMA!"
+        }
+      ]
+    }
+  ]
+}

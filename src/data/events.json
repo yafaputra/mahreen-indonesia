@@ -1,0 +1,167 @@
+{
+  "events": [
+    {
+      "id": "event-ui-ux-mastery",
+      "slug": "ui-ux-mastery",
+      "title": "UI/UX Mastery: Crafting Luxury Digital Experiences",
+      "pricingType": "PAID",
+      "price": "Rp 199.000",
+      "category": "WORKSHOP",
+      "dateDisplay": "15 Desember 2026",
+      "isoDate": "2026-12-15",
+      "time": "09:00 - 17:00 WIB",
+      "summary": "Workshop intensif merancang pengalaman digital kelas atas (luxury digital experiences) dengan prinsip micro-interactions, visual hierarchy premium, dan design system enterprise.",
+      "description": "Pelajari rahasia perancangan produk digital bernilai tinggi langsung dari praktisi industri kelas dunia. Dari riset perilaku pengguna premium hingga implementasi animasi mikro dan prototyping tingkat lanjut yang siap memukau klien global.",
+      "location": "Live Virtual Figma Lab & Discord Community",
+      "capacity": 150,
+      "registeredCount": 118,
+      "xpReward": 90,
+      "badge": "PAID",
+      "speaker": {
+        "name": "Maya Sari",
+        "role": "VP of Brand & Experience, Lumina Creative",
+        "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+      },
+      "tags": ["Design", "UI/UX", "Workshop", "Paid"],
+      "coverImage": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "event-global-impact",
+      "slug": "global-impact-digitalization",
+      "title": "The Global Impact of Digitalization in Indonesia",
+      "pricingType": "FREE",
+      "price": "Gratis (Free)",
+      "category": "SEMINAR",
+      "dateDisplay": "24 November 2026",
+      "isoDate": "2026-11-24",
+      "time": "14:00 - 16:00 WIB",
+      "summary": "Seminar nasional membedah potensi digitalisasi Indonesia dalam kancah ekonomi global, kesiapan talenta muda, dan akselerasi transformasi bisnis berkelanjutan.",
+      "description": "Menghadirkan perspektif menyeluruh tentang posisi Indonesia di era digital global. Bagaimana pemuda, startup, dan korporasi bersinergi menghadapi disrupsi teknologi dan peluang pasar internasional.",
+      "location": "Zoom Webinar & YouTube Live Mahreen",
+      "capacity": 500,
+      "registeredCount": 420,
+      "xpReward": 50,
+      "badge": "FREE",
+      "speaker": {
+        "name": "Reza Wiratama",
+        "role": "CEO, TechVantage Indonesia",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+      },
+      "tags": ["Technology", "Seminar", "Free", "Ecosystem"],
+      "coverImage": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "event-ai-for-business",
+      "slug": "ai-for-business",
+      "title": "AI for Business: From Experiment to Measurable Value",
+      "pricingType": "PAID",
+      "price": "Rp 249.000",
+      "category": "MASTERCLASS",
+      "dateDisplay": "31 Oktober 2026",
+      "isoDate": "2026-10-31",
+      "time": "13:00 - 16:30 WIB",
+      "summary": "Masterclass strategis mengimplementasikan Artificial Intelligence dan machine learning untuk optimasi proses operasional, automasi bisnis, dan peningkatan ROI.",
+      "description": "Bongkar cara mentransformasi eksperimen AI menjadi revenue riil dan efisiensi operasional organisasi. Studi kasus implementasi LLM, predictive analytics, dan workflow automasi pada berbagai skala perusahaan.",
+      "location": "Live Executive Masterclass (Zoom & Slack Community)",
+      "capacity": 120,
+      "registeredCount": 96,
+      "xpReward": 100,
+      "badge": "PAID",
+      "speaker": {
+        "name": "Reza Wiratama & Dr. Anindya Putri",
+        "role": "AI Strategy & Research Leads",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+      },
+      "tags": ["AI", "Masterclass", "Paid", "Business"],
+      "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "event-ui-ux-design-masterclass",
+      "slug": "ui-ux-design-masterclass",
+      "title": "UI/UX Design Masterclass",
+      "pricingType": "FREE",
+      "price": "Gratis (Free)",
+      "category": "WEBINAR",
+      "dateDisplay": "28 Oktober 2026",
+      "isoDate": "2026-10-28",
+      "time": "19:00 - 21:20 WIB",
+      "summary": "Webinar fundamental hingga intermediate seputar cara berpikir desainer produk modern, user journey mapping, wireframing, dan usability testing.",
+      "description": "Kuasai tahapan desain produk digital dari nol hingga siap portofolio. Menjawab kebutuhan industri akan desainer yang mampu memadukan estetika visual dengan fungsionalitas bisnis.",
+      "location": "Live Virtual Room & Figma Community Space",
+      "capacity": 400,
+      "registeredCount": 382,
+      "xpReward": 45,
+      "badge": "FREE",
+      "speaker": {
+        "name": "Maya Sari",
+        "role": "VP of Brand & Experience, Lumina Creative",
+        "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+      },
+      "tags": ["Design", "Webinar", "Free", "UI/UX"],
+      "coverImage": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "event-digital-marketing-strategy",
+      "slug": "digital-marketing-strategy",
+      "title": "Digital Marketing Strategy",
+      "pricingType": "PAID",
+      "price": "Rp 179.000",
+      "category": "MASTERCLASS",
+      "dateDisplay": "24 Oktober 2026",
+      "isoDate": "2026-10-24",
+      "time": "19:00 - 20:30 WIB",
+      "summary": "Masterclass penyusunan strategi pemasaran digital omni-channel, performance marketing, content flywheel, dan conversion rate optimization (CRO).",
+      "description": "Panduan taktis merancang funnel pemasaran digital yang menghasilkan konversi nyata tanpa bakar uang berlebihan. Mempelajari paid ads, organic content, SEO, dan CRM retention.",
+      "location": "Live Interactive Masterclass & Case Study Review",
+      "capacity": 150,
+      "registeredCount": 134,
+      "xpReward": 80,
+      "badge": "PAID",
+      "speaker": {
+        "name": "Bagus Pratama",
+        "role": "Co-Founder & COO, ScaleUp Hub",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80"
+      },
+      "tags": ["Marketing", "Masterclass", "Paid", "Growth"],
+      "coverImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+    }
+  ],
+  "speakers": [
+    {
+      "id": "speaker-reza",
+      "name": "Reza Wiratama",
+      "role": "CEO, TechVantage Indonesia",
+      "specialty": "AI Strategy & Digital Transformation",
+      "bio": "Praktisi kecerdasan buatan dan konsultan transformasi teknologi terkemuka. Telah memandu puluhan korporasi dan startup di Indonesia mengadopsi AI secara terukur.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "events": ["AI for Business", "The Global Impact of Digitalization"]
+    },
+    {
+      "id": "speaker-maya",
+      "name": "Maya Sari",
+      "role": "VP of Brand & Experience, Lumina Creative",
+      "specialty": "Luxury UI/UX & Digital Branding",
+      "bio": "Desainer produk digital berpengalaman 12+ tahun dalam merancang pengalaman antarmuka kelas dunia untuk brand mewah dan platform berskala internasional.",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "events": ["UI/UX Mastery", "UI/UX Design Masterclass"]
+    },
+    {
+      "id": "speaker-bagus",
+      "name": "Bagus Pratama",
+      "role": "Co-Founder & COO, ScaleUp Hub",
+      "specialty": "Growth Marketing & Scaling Strategy",
+      "bio": "Growth strategist yang telah mengarsiteki kampanye pemasaran berkinerja tinggi bagi 40+ startup dan brand nasional dengan return on ad spend (ROAS) optimal.",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+      "events": ["Digital Marketing Strategy"]
+    },
+    {
+      "id": "speaker-anindya",
+      "name": "Dr. Anindya Putri",
+      "role": "Lead AI Researcher, DataNusantara Lab",
+      "specialty": "Applied Machine Learning & Data Science",
+      "bio": "Peneliti kecerdasan buatan terapan dengan fokus riset LLM dan sistem data presisi. Pembicara aktif dalam forum sains data dan kebijakan teknologi nasional.",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80",
+      "events": ["The Global Impact of Digitalization", "AI for Business"]
+    }
+  ]
+}

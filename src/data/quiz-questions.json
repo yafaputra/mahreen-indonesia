@@ -1,0 +1,222 @@
+{
+  "dimensions": [
+    { "id": "kreatif", "label": "UI/UX & Kreatif", "color": "#DE836E" },
+    { "id": "teknologi", "label": "Teknologi & AI", "color": "#0D9488" },
+    { "id": "bisnis", "label": "Bisnis & Growth", "color": "#D97706" },
+    { "id": "sosial", "label": "Sosial & Komunitas", "color": "#C84B31" }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "category": "Panggilan & Eksplorasi Karier",
+      "question": "Saat melihat potensi besar karya dan bisnis di sekitarmu yang belum tergarap optimal, apa dorongan pertama yang muncul di pikiranmu?",
+      "options": [
+        {
+          "text": "Merancang identitas visual mewah, desain UI/UX kelas dunia, atau konten video memikat agar brand tersebut tampak prestisius.",
+          "weights": { "kreatif": 3, "teknologi": 0, "bisnis": 1, "sosial": 1 }
+        },
+        {
+          "text": "Membangun platform website modern, mengintegrasikan otomasi AI, atau menyusun sistem teknologi performa tinggi.",
+          "weights": { "kreatif": 0, "teknologi": 3, "bisnis": 1, "sosial": 1 }
+        },
+        {
+          "text": "Menemukan model bisnis baru, merancang strategi digital marketing omni-channel, dan membuka kemitraan B2B strategis.",
+          "weights": { "kreatif": 1, "teknologi": 0, "bisnis": 3, "sosial": 1 }
+        },
+        {
+          "text": "Menginisiasi program edukasi sosial (Peduli Mahreen) untuk memberdayakan anak muda dan komunitas di pelosok daerah.",
+          "weights": { "kreatif": 1, "teknologi": 0, "bisnis": 1, "sosial": 3 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Gaya Kolaborasi Proyek",
+      "question": "Dalam sebuah tim project-based internship atau profesional agency di Mahreen, peran apa yang paling alami dan kamu nikmati?",
+      "options": [
+        {
+          "text": "UI/UX Designer atau Creative Lead: Menata alur pengalaman pengguna, estetika visual, dan panduan desain sistem.",
+          "weights": { "kreatif": 3, "teknologi": 0, "bisnis": 1, "sosial": 1 }
+        },
+        {
+          "text": "Fullstack Web & AI Engineer: Menulis kode arsitektur bersih, mengoptimasi responsifitas web, dan menyambungkan API cerdas.",
+          "weights": { "kreatif": 0, "teknologi": 3, "bisnis": 1, "sosial": 1 }
+        },
+        {
+          "text": "Business Development & Growth Marketer: Menyusun proposal kerja sama, riset pasar klien, dan funnel konversi iklan.",
+          "weights": { "kreatif": 0, "teknologi": 1, "bisnis": 3, "sosial": 1 }
+        },
+        {
+          "text": "Social Impact Coordinator & Community Lead: Menggerakkan relawan, mendampingi UMKM binaan, dan memastikan dampak nyata program.",
+          "weights": { "kreatif": 1, "teknologi": 0, "bisnis": 1, "sosial": 3 }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Target Portofolio Nyata",
+      "question": "Jika kamu diberi waktu 1 bulan memimpin proyek nyata bersama mitra strategis Mahreen, portofolio apa yang ingin kamu hasilkan?",
+      "options": [
+        {
+          "text": "Desain produk digital interaktif berstandar internasional dan lini visual branding apparel di Mahreen Studio.",
+          "weights": { "kreatif": 3, "teknologi": 0, "bisnis": 0, "sosial": 2 }
+        },
+        {
+          "text": "Aplikasi web responsif Next.js dengan fitur automasi AI yang mempermudah ribuan pengguna setiap hari.",
+          "weights": { "kreatif": 0, "teknologi": 3, "bisnis": 1, "sosial": 1 }
+        },
+        {
+          "text": "Peningkatan omzet 180% bagi brand klien atau UMKM binaan lewat kampanye Tanya Mahreen dan kemitraan kampus.",
+          "weights": { "kreatif": 1, "teknologi": 1, "bisnis": 3, "sosial": 1 }
+        },
+        {
+          "text": "Modul edukasi literasi digital gratis yang menjangkau anak-anak sekolah dan komunitas muda di pulau terluar 34 provinsi.",
+          "weights": { "kreatif": 1, "teknologi": 0, "bisnis": 0, "sosial": 3 }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Sumber Inspirasi Industri",
+      "question": "Kisah keberhasilan mana yang paling menginspirasi semangat berkaryamu?",
+      "options": [
+        {
+          "text": "Karya desain grafis dan UI/UX buatan talenta lokal Indonesia dipercaya oleh brand mewah internasional.",
+          "weights": { "kreatif": 3, "teknologi": 1, "bisnis": 1, "sosial": 0 }
+        },
+        {
+          "text": "Inovasi perangkat lunak open-source dan model AI ciptaan mahasiswa digunakan jutaan pengguna global.",
+          "weights": { "kreatif": 0, "teknologi": 3, "bisnis": 0, "sosial": 2 }
+        },
+        {
+          "text": "Bisnis rintisan yang bertumbuh eksponensial (scale up) berkat strategi kemitraan B2B dan performance marketing presisi.",
+          "weights": { "kreatif": 1, "teknologi": 1, "bisnis": 3, "sosial": 1 }
+        },
+        {
+          "text": "Program CSR berkelanjutan yang mampu memandirikan ratusan pengrajin daerah dan mengangkat harkat keluarga prasejahtera.",
+          "weights": { "kreatif": 0, "teknologi": 0, "bisnis": 1, "sosial": 3 }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Tantangan Terbesar Ekosistem",
+      "question": "Menurut pandanganmu, apa simpul masalah terbesar yang paling mendesak dipecahkan oleh generasi muda Indonesia saat ini?",
+      "options": [
+        {
+          "text": "Masih minimnya apresiasi terhadap identitas desain berkualitas tinggi dan keterbatasan desainer digital berstandar global.",
+          "weights": { "kreatif": 3, "teknologi": 0, "bisnis": 0, "sosial": 2 }
+        },
+        {
+          "text": "Kesenjangan pemanfaatan teknologi modern (AI, Cloud, arsitektur web modern) antara kota besar dan talenta daerah.",
+          "weights": { "kreatif": 0, "teknologi": 3, "bisnis": 1, "sosial": 2 }
+        },
+        {
+          "text": "Sulitnya brand lokal dan UMKM bersaing di pasar modern karena strategi pemasaran dan kemitraan yang belum terstruktur.",
+          "weights": { "kreatif": 0, "teknologi": 1, "bisnis": 3, "sosial": 1 }
+        },
+        {
+          "text": "Kurangnya wadah kolaborasi sosial yang menghubungkan universitas, dunia usaha, dan masyarakat pelosok secara berkesinambungan.",
+          "weights": { "kreatif": 1, "teknologi": 0, "bisnis": 1, "sosial": 3 }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Langkah Awal di Mahreen OS",
+      "question": "Jika bergabung dengan ekosistem Mahreen Indonesia hari ini, program apa yang ingin kamu mulai pertama kali?",
+      "options": [
+        {
+          "text": "Bergabung di Mahreen Studio dan mengambil Workshop UI/UX Mastery untuk mengasah desain kelas atas.",
+          "weights": { "kreatif": 3, "teknologi": 1, "bisnis": 1, "sosial": 0 }
+        },
+        {
+          "text": "Mengikuti Bootcamp Web Engineering atau Masterclass AI for Business untuk memperkuat keahlian teknis terapan.",
+          "weights": { "kreatif": 0, "teknologi": 3, "bisnis": 1, "sosial": 1 }
+        },
+        {
+          "text": "Terjun dalam program Tanya Mahreen untuk membantu scale-up bisnis klien dan menjalin kemitraan strategis.",
+          "weights": { "kreatif": 1, "teknologi": 1, "bisnis": 3, "sosial": 1 }
+        },
+        {
+          "text": "Mendedikasikan waktu di Peduli Mahreen dan Mahreen CSR untuk mengorganisir ekspedisi literasi di 34 provinsi.",
+          "weights": { "kreatif": 0, "teknologi": 0, "bisnis": 1, "sosial": 3 }
+        }
+      ]
+    }
+  ],
+  "profiles": {
+    "inovator_daerah": {
+      "id": "inovator_daerah",
+      "title": "Digital & Tech Innovator",
+      "tagline": "Membangun Ekosistem Digital Berdaya Saing Global & Solutif",
+      "dominantDimension": "teknologi",
+      "badge": "Tech & AI Innovator",
+      "avatarIcon": "Cpu",
+      "color": "emerald",
+      "description": "Kamu adalah pemikir analitis dan arsitek digital yang percaya bahwa rekayasa perangkat lunak serta implementasi AI adalah akselerator utama transformasi bangsa. Kamu melihat masalah sebagai tantangan logika yang bisa diselesaikan dengan platform web modern, automasi cerdas, dan arsitektur data terukur.",
+      "strengths": [
+        "Pengembangan platform web modern (Next.js, React, APIs)",
+        "Implementasi terapan AI & automasi alur kerja operasional",
+        "Arsitektur sistem andal dan pemecahan masalah berbasis logika",
+        "Ketangkasan mengadopsi tren teknologi mutakhir"
+      ],
+      "recommendedPillars": ["teknologi", "talenta"],
+      "motto": "\"Teknologi terbaik adalah yang menyentuh kebutuhan nyata dan mempermudah hidup banyak orang.\""
+    },
+    "penggerak_umkm": {
+      "id": "penggerak_umkm",
+      "title": "Business Development & Growth Strategist",
+      "tagline": "Mengakselerasi Kemitraan Strategis, UMKM Binaan & Model Bisnis Berkelanjutan",
+      "dominantDimension": "bisnis",
+      "badge": "BizDev & Growth Lead",
+      "avatarIcon": "TrendingUp",
+      "color": "amber",
+      "description": "Kamu memiliki insting wirausaha tajam, kemampuan komunikasi persuasif, dan kecakapan melihat peluang kemitraan bernilai tinggi. Di ekosistem Mahreen, kamu memimpin inisiatif Business Development, layanan agensi Tanya Mahreen, serta strategi scaling bisnis dan UMKM ke tingkat nasional dan global.",
+      "strengths": [
+        "Strategi kemitraan institusi (B2B, Kampus, & CSR Korporasi)",
+        "Performance marketing, funnel konversi, & optimasi ROI",
+        "Penyusunan model bisnis dan unit ekonomi yang berkelanjutan",
+        "Kecakapan negosiasi dan pendampingan UMKM naik kelas"
+      ],
+      "recommendedPillars": ["bisnis", "komunitas"],
+      "motto": "\"Karya besar lahir dari sinergi kemitraan yang saling menguatkan dan berdampak ekonomi riil.\""
+    },
+    "kreator_digital": {
+      "id": "kreator_digital",
+      "title": "UI/UX & Creative Director",
+      "tagline": "Merancang Pengalaman Digital Mewah & Identitas Visual Berdampak",
+      "dominantDimension": "kreatif",
+      "badge": "Creative & UX Lead",
+      "avatarIcon": "Palette",
+      "color": "terracotta",
+      "description": "Kamu adalah desainer visual dan perancang produk digital yang berfokus pada estetika mewah, micro-interactions elegan, serta pengalaman pengguna yang tak terlupakan. Di Mahreen Studio dan Tanya Mahreen, karya visualmu memberi jiwa bagi brand dan produk Indonesia agar berdaya saing internasional.",
+      "strengths": [
+        "Perancangan UI/UX kelas dunia & micro-interactions mendalam",
+        "Branding identity, visual aesthetics, dan tipografi kontemporer",
+        "Penyusunan enterprise design systems yang konsisten",
+        "Keahlian mengubah gagasan abstrak menjadi karya visual memukau"
+      ],
+      "recommendedPillars": ["kreativitas", "talenta"],
+      "motto": "\"Desain yang baik bukan sekadar indah dilihat, tapi mampu memandu manusia menuju pengalaman yang bermakna.\""
+    },
+    "penggerak_sosial": {
+      "id": "penggerak_sosial",
+      "title": "Social Impact & Ecosystem Mobilizer",
+      "tagline": "Menggerakkan Pendidikan Kreatif & Pemberdayaan Komunitas 34 Provinsi",
+      "dominantDimension": "sosial",
+      "badge": "Social Impact Lead",
+      "avatarIcon": "Users",
+      "color": "terracottaDark",
+      "description": "Kamu memiliki empati sosial tinggi, ketangguhan kepemimpinan, dan kepedulian mendalam terhadap masa depan generasi muda. Kamu adalah penggerak utama pilar Peduli Mahreen dan Mahreen CSR, menjahit gotong royong lintas universitas dan komunitas demi menciptakan akses literasi digital di seluruh Nusantara.",
+      "strengths": [
+        "Mobilisasi relawan pemuda dan kepemimpinan gerakan sosial",
+        "Penyelenggaraan program edukasi inklusif bagi sekolah & panti",
+        "Manajemen kemitraan CSR berkelanjutan berstandar ESG",
+        "Kemampuan merajut gotong royong antar-komunitas 34 provinsi"
+      ],
+      "recommendedPillars": ["sosial", "komunitas"],
+      "motto": "\"Karya terkecil yang dilakukan bersama dengan ketulusan lebih bermakna daripada rencana besar tanpa aksi nyata.\""
+    }
+  }
+}

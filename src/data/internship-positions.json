@@ -1,0 +1,213 @@
+[
+  {
+    "id": "web-developer",
+    "title": "Frontend & Fullstack Web Developer Intern",
+    "slug": "web-developer-intern",
+    "division": "Tech & Engineering",
+    "workMode": "WFH (Remote)",
+    "workModeType": "wfh",
+    "location": "Remote Seluruh Indonesia",
+    "duration": "4 Bulan (Batch 2: Okt 2026 – Jan 2027)",
+    "commitment": "Full-time / Part-time (Min. 20 jam/minggu)",
+    "slots": 12,
+    "appliedCount": 64,
+    "status": "Dibuka",
+    "stipend": "Insentif Proyek + Bonus Deliverable",
+    "color": "border-blue-200 bg-blue-50/30 text-blue-900",
+    "badgeColor": "blue",
+    "responsibilities": [
+      "Membangun antarmuka web modern dan responsif menggunakan Next.js, React, dan Tailwind CSS.",
+      "Melakukan integrasi REST API dan backend services untuk proyek klien nyata Mahreen.",
+      "Menerapkan prinsip clean code, optimasi SEO technical, dan performa web loading tinggi.",
+      "Berkolaborasi dengan UI/UX Designer melalui sistem token Figma handover."
+    ],
+    "requirements": [
+      "Mahasiswa aktif D3/S1 (Informatika, SI, Ilmu Komputer) atau fresh graduate.",
+      "Memahami dasar HTML5, CSS3, JavaScript/TypeScript, dan React/Next.js.",
+      "Familiar dengan Git / GitHub untuk workflow branching dan pull request.",
+      "Memiliki portofolio proyek web (karya kuliah, side project, atau repositori aktif)."
+    ],
+    "benefits": [
+      "Uang saku insentif proyek terukur",
+      "Sertifikat Resmi Industri terbitan Mahreen Indonesia ber-QR Code",
+      "Konversi SKS resmi (Magang Mandiri / MSIB)",
+      "Mentoring privat 1-on-1 mingguan bersama Senior Software Engineer",
+      "Akses proyek klien nyata untuk portofolio unggulan rekruter"
+    ]
+  },
+  {
+    "id": "ui-ux-designer",
+    "title": "UI/UX & Product Design Intern",
+    "slug": "ui-ux-designer-intern",
+    "division": "Product Design",
+    "workMode": "WFH (Remote)",
+    "workModeType": "wfh",
+    "location": "Remote Seluruh Indonesia",
+    "duration": "4 Bulan (Batch 2: Okt 2026 – Jan 2027)",
+    "commitment": "Full-time / Part-time (Min. 20 jam/minggu)",
+    "slots": 10,
+    "appliedCount": 78,
+    "status": "Dibuka",
+    "stipend": "Insentif Proyek + Bonus Deliverable",
+    "color": "border-emerald-200 bg-emerald-50/30 text-emerald-900",
+    "badgeColor": "emerald",
+    "responsibilities": [
+      "Merancang wireframe, user flow, dan interactive high-fidelity prototype di Figma.",
+      "Mengembangkan dan merawat design system (typography scale, color tokens, reusable components).",
+      "Menjalankan usability testing dan riset kebutuhan pengguna produk digital klien.",
+      "Menghasilkan antarmuka web & mobile luxury digital experience yang memukau."
+    ],
+    "requirements": [
+      "Menguasai Figma secara mahir (Auto Layout, Components, Variables, Prototyping).",
+      "Memahami prinsip User-Centered Design, visual hierarchy, dan accessibility.",
+      "Menyertakan link portofolio UI/UX (Figma link, Behance, Dribbble, atau Notion).",
+      "Komunikatif dalam mempresentasikan rationale desain di depan tim."
+    ],
+    "benefits": [
+      "Insentif proyek + Piagam Sertifikat Resmi Industri",
+      "Studi kasus UI/UX nyata yang siap dipajang di portofolio kerja profesional",
+      "Review portofolio mendalam dari Lead UI/UX Designer",
+      "Akses ke Figma Enterprise Tokens Library Mahreen"
+    ]
+  },
+  {
+    "id": "graphic-designer",
+    "title": "Graphic Design & Brand Identity Intern",
+    "slug": "graphic-designer-intern",
+    "division": "Visual Creative",
+    "workMode": "Hybrid (Cimahi & WFH)",
+    "workModeType": "hybrid",
+    "location": "Studio Mahreen Cimahi & Remote Nasional",
+    "duration": "4 Bulan (Batch 2: Okt 2026 – Jan 2027)",
+    "commitment": "Full-time / Flexi",
+    "slots": 15,
+    "appliedCount": 92,
+    "status": "Dibuka",
+    "stipend": "Insentif Karya + Merchandise Pack",
+    "color": "border-purple-200 bg-purple-50/30 text-purple-900",
+    "badgeColor": "purple",
+    "responsibilities": [
+      "Merancang identitas merek (logo, visual guideline, packaging, stationery) untuk UMKM & brand mitra.",
+      "Membuat visual feeds media sosial, carousel informatif, dan aset promosi digital berkurasi tinggi.",
+      "Mengeksplorasi estetika visual luxury, editorial typography, dan vector art kontemporer.",
+      "Mempersiapkan materi siap cetak dan digital publishing berstandar industri."
+    ],
+    "requirements": [
+      "Mahir mengoperasikan Adobe Illustrator, Photoshop, atau Figma.",
+      "Memiliki rasa seni estetika, kepekaan warna, dan tata letak tipografi yang kuat.",
+      "Menyertakan tautan portofolio desain grafis (PDF, Behance, Drive, atau Instagram portfolio).",
+      "Teliti terhadap detail visual dan disiplin terhadap timeline produksi."
+    ],
+    "benefits": [
+      "Insentif karya + Sertifikat Resmi Industri",
+      "Ratusan karya desain nyata yang diterbitkan dan diproduksi klien",
+      "Mentoring langsung dari Art Director & Creative Lead",
+      "Surat rekomendasi kerja untuk karier agensi kreatif"
+    ]
+  },
+  {
+    "id": "videographer",
+    "title": "Videographer & Motion Media Intern",
+    "slug": "videographer-intern",
+    "division": "Media Production",
+    "workMode": "WFO (On-site Studio)",
+    "workModeType": "wfo",
+    "location": "Studio Mahreen (Jl. Kebon Kopi No. 153 Cimahi, Jawa Barat)",
+    "duration": "4 Bulan (Batch 2: Okt 2026 – Jan 2027)",
+    "commitment": "Full-time (Senin – Jumat On-site)",
+    "slots": 8,
+    "appliedCount": 45,
+    "status": "Dibuka",
+    "stipend": "Uang Saku On-site + Fasilitas Studio",
+    "color": "border-rose-200 bg-rose-50/30 text-rose-900",
+    "badgeColor": "rose",
+    "responsibilities": [
+      "Mengambil rekaman video sinematik untuk produk apparel, commercial video, dan event dokumentasi.",
+      "Melakukan editing video, color grading, sound mixing, dan motion graphics modern.",
+      "Memproduksi format video pendek vertikal (Reels, TikTok, Shorts) bernilai engagement tinggi.",
+      "Mengelola inventaris kamera, pencahayaan (lighting), dan audio di studio produksi."
+    ],
+    "requirements": [
+      "Berdomisili di Bandung Raya / Cimahi atau bersedia bekerja on-site di Studio Cimahi.",
+      "Mampu mengoperasikan kamera DSLR / Mirrorless serta perlengkapan stabilizer (gimbal).",
+      "Mahir software video editor: Adobe Premiere Pro, After Effects, DaVinci Resolve, atau CapCut PC.",
+      "Melampirkan link showreel / video yang pernah dikerjakan (YouTube/Drive/TikTok)."
+    ],
+    "benefits": [
+      "Uang saku kehadiran on-site + insentif proyek video",
+      "Akses penuh studio foto/video, set pencahayaan, dan kamera profesional",
+      "Sertifikat Resmi Industri terbitan Mahreen Indonesia",
+      "Kredit resmi video komersial dan company profile klien nasional"
+    ]
+  },
+  {
+    "id": "digital-marketing",
+    "title": "Digital Marketing & Growth Strategist Intern",
+    "slug": "digital-marketing-intern",
+    "division": "Marketing & Growth",
+    "workMode": "WFH (Remote)",
+    "workModeType": "wfh",
+    "location": "Remote Seluruh Indonesia",
+    "duration": "4 Bulan (Batch 2: Okt 2026 – Jan 2027)",
+    "commitment": "Full-time / Part-time (Min. 20 jam/minggu)",
+    "slots": 10,
+    "appliedCount": 58,
+    "status": "Dibuka",
+    "stipend": "Insentif Performa + Ad Budget Praktek",
+    "color": "border-amber-200 bg-amber-50/30 text-amber-900",
+    "badgeColor": "amber",
+    "responsibilities": [
+      "Mengelola kampanye iklan digital berbayar (Meta Ads, TikTok Ads, Google Search/Display Ads).",
+      "Menyusun copywriting persuasif berdaya konversi tinggi untuk landing page dan materi promosi.",
+      "Memantau dan menganalisis funnel konversi, traffic website, ROAS, dan metrik retensi.",
+      "Merancang konten flywheel dan strategi organic SEO untuk pertumbuhan berkelanjutan."
+    ],
+    "requirements": [
+      "Memahami dasar digital marketing, social media algorithms, dan paid advertising funnel.",
+      "Keterampilan copywriting bahasa Indonesia dan Inggris yang persuasif.",
+      "Menyukai analisa data numerik dan eksperimen A/B testing kampanye iklan.",
+      "Menyertakan resume atau rangkuman studi kasus kampanye/toko online yang pernah dikelola."
+    ],
+    "benefits": [
+      "Pengalaman nyata mengelola anggaran iklan (real ad budget) puluhan juta rupiah",
+      "Insentif performa + Sertifikat Resmi Industri",
+      "Mentoring mingguan bersama Certified Digital Marketing Lead",
+      "Portofolio analitik terukur untuk melamar di tech startup unicorn"
+    ]
+  },
+  {
+    "id": "business-development",
+    "title": "Business Development & Partnership Intern",
+    "slug": "business-development-intern",
+    "division": "Partnership & Corporate",
+    "workMode": "Hybrid (Cimahi & WFH)",
+    "workModeType": "hybrid",
+    "location": "Cimahi HQ & Remote Hub Lintas Kota",
+    "duration": "4 Bulan (Batch 2: Okt 2026 – Jan 2027)",
+    "commitment": "Full-time / Part-time",
+    "slots": 6,
+    "appliedCount": 34,
+    "status": "Dibuka",
+    "stipend": "Insentif Sinergi + Komisi MoU",
+    "color": "border-indigo-200 bg-indigo-50/30 text-indigo-900",
+    "badgeColor": "indigo",
+    "responsibilities": [
+      "Menjalin audiensi dan koordinasi kemitraan dengan 50+ perguruan tinggi mitra (MoU & MSIB).",
+      "Melakukan riset prospek B2B, program CSR korporasi, dan asosiasi UMKM potensial.",
+      "Menyusun proposal kerja sama, pitch deck kemitraan, dan draf nota kesepahaman (MoU).",
+      "Mendampingi sesi negosiasi kemitraan strategis bersama jajaran eksekutif Mahreen."
+    ],
+    "requirements": [
+      "Mahasiswa/Fresh Grad jurusan Manajemen, Komunikasi, Hubungan Internasional, Hukum, atau Bisnis.",
+      "Kemampuan komunikasi interpersonal, negosiasi, dan presentasi publik yang prima.",
+      "Terbiasa membuat dokumen proposal formal dan slide presentasi bisnis yang rapi.",
+      "Proaktif, memiliki networking luas di lingkungan kampus atau organisasi pemuda."
+    ],
+    "benefits": [
+      "Jejaring langsung ke pimpinan universitas, dinas pemerintah, dan eksekutif korporasi",
+      "Insentif kemitraan + bonus kesuksesan kesepakatan MoU",
+      "Sertifikat Resmi Industri terbitan Mahreen Indonesia",
+      "Mentoring kepemimpinan bisnis tingkat lanjut"
+    ]
+  }
+]

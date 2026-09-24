@@ -1,0 +1,87 @@
+[
+  {
+    "id": "fest-jawa",
+    "zoneName": "Zona Jawa",
+    "cities": "Yogyakarta & Solo",
+    "theme": "Harmoni Tradisi & Hilirisasi Digital",
+    "dates": "12 - 15 November 2026",
+    "venue": "Jogja National Museum & Benteng Vastenburg",
+    "coverImage": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=80",
+    "pavilions": [
+      { "name": "Paviliun Wastra 3D", "desc": "Instalasi interaktif motif tenun & batik parametrik" },
+      { "name": "Bursa Inovasi UMKM", "desc": "Pitching 50 produk unggulan ke buyer nasional" },
+      { "name": "Panggung Musik Nusantara", "desc": "Kolaborasi gamelan kontemporer & electronic music" }
+    ],
+    "keynotes": ["Gubernur DIY", "Menteri Koperasi & UKM", "Founder Unicorn Indonesia"],
+    "registeredPasses": 1420,
+    "xpReward": 35
+  },
+  {
+    "id": "fest-balinusra",
+    "zoneName": "Zona Bali & Nusa Tenggara",
+    "cities": "Denpasar & Kupang",
+    "theme": "Kearifan Bahari, Budaya & Green Economy",
+    "dates": "20 - 23 November 2026",
+    "venue": "Taman Budaya Art Center Bali & Pantai Lasiana Kupang",
+    "coverImage": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1200&q=80",
+    "pavilions": [
+      { "name": "Lab Ekologi Pesisir", "desc": "Pameran IoT air bersih & konservasi mangrove" },
+      { "name": "Etalase Tenun NTT", "desc": "Karya kolaboratif 40 mama penenun & desainer muda" },
+      { "name": "Green Impact Pitching", "desc": "Temu investor hijau untuk startup sirkular" }
+    ],
+    "keynotes": ["Tokoh Adat Sumba", "Pakar Energi Terbarukan", "Filantropi Bahari"],
+    "registeredPasses": 980,
+    "xpReward": 35
+  },
+  {
+    "id": "fest-sumatera",
+    "zoneName": "Zona Sumatera",
+    "cities": "Medan & Padang",
+    "theme": "Sovereignty of Spices & Creative Heritage",
+    "dates": "27 - 30 November 2026",
+    "venue": "Lapangan Merdeka Medan & Rumah Puisi Taufiq Ismail",
+    "coverImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=80",
+    "pavilions": [
+      { "name": "Paviliun Jalur Rempah", "desc": "Arsip interaktif komoditas rempah & kopi Gayo" },
+      { "name": "Studio Tipografi Aksara Batak & Minang", "desc": "Karya font digital kontemporer" },
+      { "name": "Klinik Hak Cipta & Merek", "desc": "Pendaftaran HKI gratis bagi produk pemuda" }
+    ],
+    "keynotes": ["Ketua Dewan Kesenian Sumatera", "Pegiat Literasi Rempah", "Ketua Kadin Daerah"],
+    "registeredPasses": 850,
+    "xpReward": 35
+  },
+  {
+    "id": "fest-timur",
+    "zoneName": "Zona Sulawesi, Maluku & Papua",
+    "cities": "Makassar & Banda Neira",
+    "theme": "Gelombang Suara Bahari & Kepemimpinan Timur",
+    "dates": "05 - 08 Desember 2026",
+    "venue": "Benteng Rotterdam Makassar & Istana Mini Banda",
+    "coverImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "pavilions": [
+      { "name": "Bioskop Pesisir 3T", "desc": "Pemutaran 24 film dokumenter karya pemuda pulau" },
+      { "name": "Forum Rembuk Pemuda Timur", "desc": "Penyusunan Deklarasi Kepemudaan Bahari" },
+      { "name": "Ekspo Pangan Lokal Sagu & Ikan", "desc": "Inovasi ketahanan pangan tanpa gandum" }
+    ],
+    "keynotes": ["Sineas Dokumenter Senior", "Rektor Universitas Pattimura", "Duta Maritim Muda"],
+    "registeredPasses": 720,
+    "xpReward": 35
+  },
+  {
+    "id": "fest-kalimantan",
+    "zoneName": "Zona Kalimantan",
+    "cities": "Balikpapan & IKN Nusantara",
+    "theme": "Pintu Masa Depan Smart Forest Ecosystem",
+    "dates": "12 - 15 Desember 2026",
+    "venue": "Balikpapan Sport and Convention Center & Plaza Rimba IKN",
+    "coverImage": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=1200&q=80",
+    "pavilions": [
+      { "name": "Paviliun Hutan Cerdas", "desc": "Sensor bio-akustik satwa & pencegah karhutla" },
+      { "name": "Kolektif Manik & Wastra Dayak", "desc": "Desain modern tanpa meninggalkan pakem adati" },
+      { "name": "GovTech Fellowship Showcase", "desc": "Presentasi aplikasi layanan publik pemuda" }
+    ],
+    "keynotes": ["Kepala Otorita IKN", "Tetua Adat Dayak Kenyah", "Direktur Smart Forest BRIN"],
+    "registeredPasses": 640,
+    "xpReward": 35
+  }
+]
